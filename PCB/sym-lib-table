@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "ul_MCP73837T-FCI-UN")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_MCP73837T-FCI-UN/KiCADv6/2025-09-10_18-22-05.kicad_sym")(options "")(descr "Battery Charging IC"))
+  (lib (name "BQ2057CSNTR")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ2057CSNTR/KiCADv6/2025-09-14_15-22-35.kicad_sym")(options "")(descr ""))
 )
