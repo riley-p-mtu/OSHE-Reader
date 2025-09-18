@@ -613,6 +613,10 @@
     [
       "3f072c92-e35a-4654-839b-728bd3dc3a46",
       "Root"
+    ],
+    [
+      "9b683008-b3f5-4049-bcf9-7e8cdd298ddd",
+      "Battery"
     ]
   ],
   "text_variables": {}
