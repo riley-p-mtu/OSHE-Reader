@@ -681,7 +681,7 @@
 			)
 		)
 		(pin "+BATT" output
-			(at 107.95 40.64 0)
+			(at 107.95 44.45 0)
 			(uuid "fa2b1085-e00c-4f1e-a818-854ec6fc07a3")
 			(effects
 				(font
@@ -693,6 +693,16 @@
 		(pin "STAT" output
 			(at 107.95 48.26 0)
 			(uuid "0ea32611-6d21-4b35-b56f-7984117d21b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" output
+			(at 107.95 40.64 0)
+			(uuid "bf73accf-73d3-49e5-82b0-362eb5951bde")
 			(effects
 				(font
 					(size 1.27 1.27)
