@@ -642,7 +642,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9b683008-b3f5-4049-bcf9-7e8cdd298ddd")
-		(property "Sheetname" "Battery"
+		(property "Sheetname" "Battery Charging"
 			(at 71.12 37.3884 0)
 			(effects
 				(font
