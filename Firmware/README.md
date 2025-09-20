@@ -1,2 +1,3 @@
-Using Minizip for now to try to and unzip and extract files/info from the epub. The necessary libraries (for now) are included in the firmware folder. The Minizip GitHub page includes examples for different functions they offer, and you can read through the miniz.h file to also gain knowledge on using the functions. Also included in the epub for MobyDick, which is the current test for parsing through content.opf.
+# Current Design
+Using [Minizip] (https://github.com/richgel999/miniz) to try to unzip and extract files/info from the epub. The necessary libraries (for now) are included in the firmware folder. The Minizip GitHub page includes examples for different functions they offer, and you can read through the miniz.h file to also gain knowledge on using the functions. Also included in the epub for MobyDick, which is the current test for parsing through content.opf
 
