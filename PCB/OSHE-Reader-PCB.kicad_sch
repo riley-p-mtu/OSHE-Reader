@@ -627,6 +627,48 @@
 		)
 	)
 	(sheet
+		(at 172.72 41.91)
+		(size 53.34 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ae4bc00-5210-45f2-881f-749b570ff62f")
+		(property "Sheetname" "BuckConverterSchematic"
+			(at 172.72 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BuckConverterSchematic.kicad_sch"
+			(at 172.72 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 71.12 38.1)
 		(size 36.83 12.7)
 		(exclude_from_sim no)
