@@ -2,7 +2,7 @@
 Using [Minizip](https://github.com/richgel999/miniz) to try to unzip and extract files/info from the epub, and [Expat](https://github.com/libexpat/libexpat) to parse the XML. The Minizip GitHub page includes examples for different functions they offer, and you can read through the miniz.h file to also gain knowledge on using the functions. Expat has some examples, although [this](https://libexpat.github.io/doc/getting-started/) website has some better documentation. The current reason for using Expat is that it might be a better choice for limited memory on the ESP32. For both libraries, searching the functions directly in their repositories can provide context on how to use them. Also included in the epub for MobyDick, which is the current test for parsing through content.opf.
 
 ## Required Environment
-To use expat, download and set up [MSYS2](https://www.msys2.org/). I am pretty sure I used [this](https://code.visualstudio.com/docs/cpp/config-mingw) guide a while ago, although I don't use VSCode -Owen.
+To use expat, download and set up [MSYS2](https://www.msys2.org/). (I am pretty sure I used [this](https://code.visualstudio.com/docs/cpp/config-mingw) guide a while ago, although I don't use VSCode -Owen).
 
 ### Compiling
 Open the MSYS2 MINGW64 terminal, and run cd `/c/<Rest of Directory>`\
@@ -11,5 +11,5 @@ Then run `gcc Parsing.c -o Parsing -lexpat`
 
 ### Executing
 Open the Command Prompt (Windows + R, type "cmd")\
-Run `cd \<Directory>`\
+Run `cd \<Directory>` (`cd \EPubTest`)\
 Then run `Parsing.exe`
