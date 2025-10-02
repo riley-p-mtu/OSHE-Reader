@@ -13,3 +13,6 @@ Then run `gcc Parsing.c -o Parsing -lexpat`
 Open the Command Prompt (Windows + R, type "cmd")\
 Run `cd \<Directory>` (`cd \EPubTest`)\
 Then run `Parsing.exe`
+
+## Current Limitations
+I have no knowledge on running programs across operating systems, so if you are using Linux, this could be impossible or very easy to run.
