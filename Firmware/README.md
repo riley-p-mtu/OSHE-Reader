@@ -5,11 +5,11 @@ Using [Minizip](https://github.com/richgel999/miniz) to try to unzip and extract
 To use expat, download and set up [MSYS2](https://www.msys2.org/). I am pretty sure I used [this](https://code.visualstudio.com/docs/cpp/config-mingw) guide a while ago, although I don't use VSCode -Owen.
 
 ### Compiling
-Open the MSYS2 MINGW64 terminal, and run cd `/c/<Rest of Directory>`
-(I have personally just been compiling it directly from a folder named EPubTest in my C drive with all the files from the firmware folder, so my command is `cd /c/EPubTest` - Owen)
+Open the MSYS2 MINGW64 terminal, and run cd `/c/<Rest of Directory>`\
+(I have personally just been compiling it directly from a folder named EPubTest in my C drive with all the files from the firmware folder, so my command is `cd /c/EPubTest` - Owen)\
 Then run `gcc Parsing.c -o Parsing -lexpat`
 
 ### Executing
-Open the Command Prompt (Windows + R, type "cmd")
-Run `cd \<Directory>`
+Open the Command Prompt (Windows + R, type "cmd")\
+Run `cd \<Directory>`\
 Then run `Parsing.exe`
