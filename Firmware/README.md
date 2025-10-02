@@ -17,4 +17,5 @@ Run `cd \<Directory>` (`cd \EPubTest`)\
 Then run `Parsing.exe`
 
 ## Current Limitations
-I have no knowledge on running programs across operating systems, so if you are using Linux, this could be impossible or very easy to run.
+I have no knowledge on running programs across operating systems, so if you are using Linux, this could be impossible or very easy to run.\
+I also don't have much experience with the command line, so most of the actual compiling was me interrogating ChatGPT. If you have any problems, probably ask it. - Owen
