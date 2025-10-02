@@ -627,8 +627,8 @@
 		)
 	)
 	(sheet
-		(at 172.72 41.91)
-		(size 53.34 12.7)
+		(at 120.65 38.1)
+		(size 48.26 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -641,9 +641,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "2ae4bc00-5210-45f2-881f-749b570ff62f")
-		(property "Sheetname" "BuckConverterSchematic"
-			(at 172.72 41.1984 0)
+		(uuid "026272d1-c63e-4075-9457-2aa47fc1f981")
+		(property "Sheetname" "OSHE-Reader-USB-C-Connector"
+			(at 120.65 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,8 +651,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BuckConverterSchematic.kicad_sch"
-			(at 172.72 55.1946 0)
+		(property "Sheetfile" "OSHE-Reader-USB-C-Connector.kicad_sch"
+			(at 120.65 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,33 +713,13 @@
 			)
 		)
 		(pin "GND" input
-			(at 71.12 48.26 180)
+			(at 71.12 43.18 180)
 			(uuid "2148d4d2-dcc6-4468-86f8-edaef4f6a4d9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "+BATT" output
-			(at 107.95 44.45 0)
-			(uuid "fa2b1085-e00c-4f1e-a818-854ec6fc07a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "STAT" output
-			(at 107.95 48.26 0)
-			(uuid "0ea32611-6d21-4b35-b56f-7984117d21b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "VBUS" output
@@ -750,6 +730,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "STAT" tri_state
+			(at 107.95 48.26 0)
+			(uuid "819734c8-91a4-4015-8217-fd949cf0383c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT-" input
+			(at 71.12 48.26 180)
+			(uuid "efe18ae1-be9c-48d9-979c-75ada83e7f76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT+" input
+			(at 71.12 45.72 180)
+			(uuid "c5df287b-8329-4491-b38a-bcb9a92613c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
