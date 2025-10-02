@@ -1,7 +1,7 @@
 <project>
     <targets>
-        <target name="target1">
-            <display width="320" height="240"/>
+        <target name="epaper">
+            <display width="480" height="648" color_format="i1"/>
         </target>
     </targets>
 </project>
