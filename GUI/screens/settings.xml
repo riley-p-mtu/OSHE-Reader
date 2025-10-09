@@ -1,0 +1,10 @@
+<screen permanent="true">
+	<styles>
+		<style name="style_main" bg_color="#white" />
+	</styles>
+
+	<view>
+		<style name="style_main" />
+		<lv_label text="Settings" y="-200" align="center" style_text_align="center" style_text_font="title" />
+	</view>
+</screen>

@@ -1,25 +1,39 @@
 <globals>
-    <api>
-        <!-- Add <enumdefs> here -->
-    </api>
+	<api>
+		<!-- Add <enumdefs> here -->
+	</api>
 
-    <consts>
-        <!-- Add <px>, <int>, <color> etc here -->
-    </consts>
+	<consts>
+		<!-- Add <px>, <int>, <color> etc here -->
+		<color name="white" value="0xffffff" />
+		<color name="dark_blue" value="0x003762" />
+		<int name="unit_small" value="6" />
+		<int name="unit_medium" value="12" />
+		<int name="unit_large" value="24" />
+	</consts>
 
-    <styles>
-        <!-- Add <style> tags here -->
-    </styles>
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
 
-    <subjects>
-        <!-- Add <int>, <string>, or <float> subjects here -->
-    </subjects>
+	<subjects>
+		<!-- Add <int>, <string>, or <float> subjects here -->
+	</subjects>
 
-    <images>
-        <!-- Add <file> or <data> tags here -->
-    </images>
-
-    <fonts>
-        <!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
-    </fonts>
+	<images>
+		<!-- Add <file> or <data> tags here -->
+	</images>
+	<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+	<fonts>
+		<bin
+			name="medium"
+			as_file="false"
+			src_path="fonts/NotoSerif-Black.ttf"
+			range="0x20-0x7f"
+			symbols="°"
+			size="24"
+			bpp="2"
+		/>
+		<bin name="title" as_file="false" src_path="fonts/NotoSerif-Black.ttf" size="40" bpp="2" />
+	</fonts>
 </globals>

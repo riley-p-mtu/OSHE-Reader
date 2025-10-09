@@ -1,30 +1,24 @@
 <screen permanent="true">
 	<styles>
-		<style name="style_main" bg_color="#FFFFFF" />
+		<style name="style_main" bg_color="#white" />
 	</styles>
 
 	<view>
 		<style name="style_main" />
-		<lv_label
-			text="Welcome Home"
-			y="-200"
-			align="center"
-			style_text_align="center"
-			style_text_font="NotoSerif-Black"
-		/>
+		<lv_label text="Welcome Home" y="-200" align="center" style_text_align="center" style_text_font="title" />
 		<lv_button width="420" height="100" style_radius="12" y="-40" align="center" style_bg_color="#5F8575">
-			<lv_label text="Library" style_text_font="NotoSerif-Black" align="center" />
-			<screen_load_event screen="library" anim_type="move_bottom" duration="500" />
+			<lv_label text="Library" style_text_font="medium" align="center" />
+			<screen_load_event screen="library" />
 		</lv_button>
 
 		<lv_button width="420" height="100" style_radius="12" y="80" align="center" style_bg_color="#5F8575">
-			<lv_label text="Last Book Read" style_text_font="monserrat_24" align="center" />
-			<screen_load_event screen="book" anim_type="move_bottom" duration="500" />
+			<lv_label text="Last Book Read" style_text_font="medium" align="center" />
+			<screen_load_event screen="book" />
 		</lv_button>
 
 		<lv_button width="420" height="100" style_radius="12" y="200" align="center" style_bg_color="#5F8575">
-			<lv_label text="Settings" style_text_font="monserrat_24" align="center" />
-			<screen_load_event screen="settings" anim_type="move_bottom" duration="500" />
+			<lv_label text="Settings" style_text_font="medium" align="center" />
+			<screen_load_event screen="settings" />
 		</lv_button>
 	</view>
 </screen>
