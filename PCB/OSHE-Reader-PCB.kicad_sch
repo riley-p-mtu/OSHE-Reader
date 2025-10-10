@@ -642,7 +642,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "026272d1-c63e-4075-9457-2aa47fc1f981")
-		(property "Sheetname" "OSHE-Reader-USB-C-Connector"
+		(property "Sheetname" "USB-C-Connector"
 			(at 120.65 37.3884 0)
 			(effects
 				(font
@@ -670,7 +670,7 @@
 	)
 	(sheet
 		(at 71.12 38.1)
-		(size 36.83 12.7)
+		(size 36.83 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -694,7 +694,7 @@
 			)
 		)
 		(property "Sheetfile" "OSHE-Reader-Battery.kicad_sch"
-			(at 71.12 51.3846 0)
+			(at 71.12 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +733,7 @@
 			)
 		)
 		(pin "STAT" tri_state
-			(at 107.95 48.26 0)
+			(at 107.95 50.8 0)
 			(uuid "819734c8-91a4-4015-8217-fd949cf0383c")
 			(effects
 				(font
@@ -742,9 +742,9 @@
 				(justify right)
 			)
 		)
-		(pin "BAT-" input
-			(at 71.12 48.26 180)
-			(uuid "efe18ae1-be9c-48d9-979c-75ada83e7f76")
+		(pin "TS" passive
+			(at 71.12 50.8 180)
+			(uuid "0ccee860-ec3d-4d87-b91b-24ba2b5e093b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,9 +752,19 @@
 				(justify left)
 			)
 		)
-		(pin "BAT+" input
+		(pin "BAT+" passive
 			(at 71.12 45.72 180)
-			(uuid "c5df287b-8329-4491-b38a-bcb9a92613c8")
+			(uuid "0e86e698-e735-4d7c-a7a7-db018d6ef7f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT-" passive
+			(at 71.12 48.26 180)
+			(uuid "e3d88a55-71f7-4dfa-96f7-5bac93b0c69a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,8 +781,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 83.82)
-		(size 35.56 11.43)
+		(at 73.66 67.31)
+		(size 44.45 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -787,7 +797,7 @@
 		)
 		(uuid "ae251da9-64d7-46e8-9279-c40d7a440224")
 		(property "Sheetname" "Buck Converter"
-			(at 50.8 83.1084 0)
+			(at 73.66 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -795,8 +805,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BuckConverterSchematic.kicad_sch"
-			(at 50.8 95.8346 0)
+		(property "Sheetfile" "OSHE-Reader-Buck-Converter.kicad_sch"
+			(at 73.66 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
