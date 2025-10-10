@@ -2451,7 +2451,7 @@
 			(uuid "7c56738f-2841-4b6c-b41f-6673b28f4fe0")
 		)
 		(instances
-			(project ""
+			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ae251da9-64d7-46e8-9279-c40d7a440224"
 					(reference "R1")
 					(unit 1)
@@ -2933,7 +2933,7 @@
 			(uuid "c912d7d0-9194-4fae-a6ef-b17184beebe4")
 		)
 		(instances
-			(project ""
+			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ae251da9-64d7-46e8-9279-c40d7a440224"
 					(reference "C2")
 					(unit 1)
@@ -3001,7 +3001,7 @@
 			(uuid "55102311-5365-417b-bd3a-4bc8b00cd914")
 		)
 		(instances
-			(project ""
+			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ae251da9-64d7-46e8-9279-c40d7a440224"
 					(reference "L1")
 					(unit 1)
@@ -3135,7 +3135,7 @@
 			(uuid "1bc7ae38-32ed-4022-bc8d-cbfcbf32a6ec")
 		)
 		(instances
-			(project ""
+			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ae251da9-64d7-46e8-9279-c40d7a440224"
 					(reference "#PWR03")
 					(unit 1)
@@ -3272,7 +3272,7 @@
 			(uuid "60a84562-010e-416c-b20f-20cc2b788207")
 		)
 		(instances
-			(project ""
+			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ae251da9-64d7-46e8-9279-c40d7a440224"
 					(reference "C1")
 					(unit 1)
@@ -3592,7 +3592,7 @@
 			(uuid "ad9a662d-9803-4876-8f0a-15d7178e4688")
 		)
 		(instances
-			(project ""
+			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ae251da9-64d7-46e8-9279-c40d7a440224"
 					(reference "U1")
 					(unit 1)
