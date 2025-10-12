@@ -3,4 +3,5 @@
   (lib (name "BQ2057CSNTR")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ2057CSNTR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "CUHZ5V6_H3F")(type "KiCad")(uri "${KIPRJMOD}/lib/CUHZ5V6_H3F/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TPS5432DDAR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS5432DDAR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ESP32-C6-DEV-KIT-N8")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32-C6-DEV-KIT-N8/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
