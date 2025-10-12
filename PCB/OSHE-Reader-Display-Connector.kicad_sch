@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c")
+	(paper "A4")
+	(lib_symbols)
+	(text "Display Connector Reference: https://files.waveshare.com/wiki/E-Paper-ESP32-Driver-Board/E-Paper_ESP32_Driver_Board_V3.pdf"
+		(exclude_from_sim no)
+		(at 87.884 23.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1dc0fe0a-1835-47a3-814c-79ab9cefd4f6")
+	)
+)
