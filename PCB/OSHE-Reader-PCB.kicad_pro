@@ -615,16 +615,32 @@
       "Root"
     ],
     [
-      "9b683008-b3f5-4049-bcf9-7e8cdd298ddd",
-      "Battery Charging"
-    ],
-    [
       "026272d1-c63e-4075-9457-2aa47fc1f981",
       "USB-C-Connector"
     ],
     [
+      "9b683008-b3f5-4049-bcf9-7e8cdd298ddd",
+      "Battery Charging"
+    ],
+    [
       "ae251da9-64d7-46e8-9279-c40d7a440224",
       "Buck Converter"
+    ],
+    [
+      "03424bf7-051b-4358-a08a-8020da2e6def",
+      "Microcontroller"
+    ],
+    [
+      "ab4c386c-ccef-4fd2-9471-e05e7dab2219",
+      "Display Connector"
+    ],
+    [
+      "f673c940-d558-4160-83eb-d33ca6356616",
+      "SD Card"
+    ],
+    [
+      "a815e849-6263-40fd-b2e2-975b77f2c5aa",
+      "Buttons"
     ]
   ],
   "text_variables": {}

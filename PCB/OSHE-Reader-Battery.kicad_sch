@@ -1044,12 +1044,6 @@
 		(uuid "19df78ef-4f68-43df-8e9a-4796865b35c7")
 	)
 	(junction
-		(at 138.43 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4db9a7f1-1ed9-46f6-a36e-3d19dfa13486")
-	)
-	(junction
 		(at 26.67 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1068,16 +1062,16 @@
 		(uuid "9469dd5d-f02d-43db-85ce-cdf029137a6a")
 	)
 	(junction
+		(at 26.67 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96036b52-482f-49bf-bbd2-c11764c2ee2c")
+	)
+	(junction
 		(at 115.57 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c7aaa08-2615-4ac2-83dc-934f68b3ca1c")
-	)
-	(junction
-		(at 26.67 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbea2d83-6da3-4c7d-a485-9c7be823e924")
 	)
 	(junction
 		(at 71.12 100.33)
@@ -1104,16 +1098,6 @@
 			(type default)
 		)
 		(uuid "05a2aae8-c942-4a6b-b39d-19a0e9e26caf")
-	)
-	(wire
-		(pts
-			(xy 138.43 58.42) (xy 138.43 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "075978cd-05f4-4c1b-b52e-739abe2c539e")
 	)
 	(wire
 		(pts
@@ -1157,13 +1141,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 58.42) (xy 39.37 58.42)
+			(xy 26.67 55.88) (xy 26.67 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26c43f0f-ea75-4186-a0a7-fd1f1bf0c1e2")
+		(uuid "2b11bc3f-2b4a-4007-977a-397ad402d105")
 	)
 	(wire
 		(pts
@@ -1257,7 +1241,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 55.88) (xy 138.43 58.42)
+			(xy 138.43 55.88) (xy 138.43 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1304,16 +1288,6 @@
 			(type default)
 		)
 		(uuid "a203849d-f570-4c4d-a794-74d69ddc4636")
-	)
-	(wire
-		(pts
-			(xy 140.97 58.42) (xy 138.43 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a522bfab-bb3a-4298-9cd2-83302b5bf61d")
 	)
 	(wire
 		(pts
@@ -1467,16 +1441,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 55.88) (xy 26.67 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfbfa545-d6f3-40e7-a715-8ca368ababfc")
-	)
-	(wire
-		(pts
 			(xy 26.67 66.04) (xy 39.37 66.04)
 		)
 		(stroke
@@ -1484,6 +1448,16 @@
 			(type default)
 		)
 		(uuid "e04a2bdc-7f69-4bfa-9c59-e565d12bcf38")
+	)
+	(wire
+		(pts
+			(xy 26.67 58.42) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17891e7-d3bb-4136-a773-480f5659e544")
 	)
 	(wire
 		(pts
@@ -1690,17 +1664,6 @@
 		)
 		(uuid "d5ee2c77-a4f8-4f71-b9bc-abb4d5e4c703")
 	)
-	(hierarchical_label "BAT-"
-		(shape passive)
-		(at 140.97 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f17136e0-8b2a-4514-a554-7e7e0edc521c")
-	)
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 101.6 45.72 180)
@@ -1714,7 +1677,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 26.67 54.61 90)
+		(at 26.67 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
