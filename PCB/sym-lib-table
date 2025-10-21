@@ -5,4 +5,5 @@
   (lib (name "CUHZ5V6_H3F")(type "KiCad")(uri "${KIPRJMOD}/lib/CUHZ5V6_H3F/KiCADv6/2025-10-10_16-50-19.kicad_sym")(options "")(descr ""))
   (lib (name "TPS5432DDAR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS5432DDAR/KiCADv6/2025-10-10_16-53-45.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-C6-DEV-KIT-N8")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32-C6-DEV-KIT-N8/KiCADv6/ESP32-C6-DEV-KIT-N8.kicad_sym")(options "")(descr ""))
+  (lib (name "112L_TDA0")(type "KiCad")(uri "${KIPRJMOD}/lib/112L_TDA0/KiCADv6/2025-10-21_18-09-40.kicad_sym")(options "")(descr ""))
 )
