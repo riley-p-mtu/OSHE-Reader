@@ -657,6 +657,135 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 104.14 82.55)
+		(uuid "4763fe66-fe7a-4b05-8889-08c824c13ff2")
+	)
+	(no_connect
+		(at 63.5 52.07)
+		(uuid "548a0526-8dd4-40ed-86e1-cf2a15bb5119")
+	)
+	(no_connect
+		(at 104.14 80.01)
+		(uuid "a8706038-e5f4-45fe-b17f-7898aadd91be")
+	)
+	(no_connect
+		(at 104.14 54.61)
+		(uuid "b8bf489d-02c6-4b39-b1fe-13797e24e18a")
+	)
+	(no_connect
+		(at 104.14 52.07)
+		(uuid "f423b780-a389-4c9a-8f5d-657266dc205b")
+	)
+	(no_connect
+		(at 63.5 82.55)
+		(uuid "f6c186dd-e6a6-48ea-ba26-d0e1fe1f0799")
+	)
+	(wire
+		(pts
+			(xy 104.14 77.47) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401d35b9-d86a-40b5-ae55-8bcf9b92aa32")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730b625f-bfa5-464c-93d4-af791764bddc")
+	)
+	(wire
+		(pts
+			(xy 60.96 85.09) (xy 63.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfa2614-53cf-49c9-a1b6-a5a474d9ba68")
+	)
+	(wire
+		(pts
+			(xy 104.14 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba45b3ce-ccc6-41ed-a80e-71179c229880")
+	)
+	(wire
+		(pts
+			(xy 60.96 49.53) (xy 63.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0b2106-dc79-45f1-ba21-8fe4da20f3b2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 60.96 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ddb4e27-b7a8-4b00-940b-df9274fd5e7e")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 60.96 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c2cff74-ab4b-4c1b-8518-14aa72f1c5e0")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 106.68 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ccdc5be-b4c4-41f8-9baf-3dd487e26401")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 106.68 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "656337a6-9e7d-4c05-945b-62ec2c48d5a0")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 106.68 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b106ae15-6f60-4d04-a0c0-8bad414b9d41")
+	)
 	(symbol
 		(lib_id "ESP32-C6-DEV-KIT-N8:ESP32-C6-DEV-KIT-N8")
 		(at 83.82 68.58 0)

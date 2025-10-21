@@ -664,7 +664,7 @@
 		(uuid "0829550a-470c-47e8-9df6-204ccff02f10")
 	)
 	(junction
-		(at 201.93 125.73)
+		(at 204.47 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "681b9d38-0bed-4a7c-a64b-8bdb04f73723")
@@ -677,7 +677,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 123.19) (xy 201.93 125.73)
+			(xy 204.47 123.19) (xy 204.47 125.73)
 		)
 		(stroke
 			(width 0)
@@ -687,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 125.73) (xy 204.47 125.73)
+			(xy 204.47 125.73) (xy 207.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -697,7 +697,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 125.73) (xy 154.94 125.73)
+			(xy 140.97 125.73) (xy 157.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -787,7 +787,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 125.73) (xy 201.93 125.73)
+			(xy 201.93 125.73) (xy 204.47 125.73)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +827,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 152.4 139.7)
+			(xy 154.94 137.16) (xy 154.94 139.7)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +887,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 154.94 137.16)
+			(xy 154.94 137.16) (xy 157.48 137.16)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +895,7 @@
 		)
 		(uuid "ea23c548-aa28-45d6-8f83-a6ceeb945102")
 	)
-	(label "STAT"
+	(label "BAT_STAT"
 		(at 143.51 137.16 0)
 		(effects
 			(font
@@ -1194,7 +1194,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 139.7 0)
+		(at 154.94 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1203,7 +1203,7 @@
 		(fields_autoplaced yes)
 		(uuid "6511c198-5512-4840-b328-1e0b0523ff18")
 		(property "Reference" "#PWR03"
-			(at 152.4 146.05 0)
+			(at 154.94 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1212,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 144.78 0)
+			(at 154.94 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 139.7 0)
+			(at 154.94 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 139.7 0)
+			(at 154.94 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 139.7 0)
+			(at 154.94 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +1260,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 204.47 125.73 270)
+		(at 207.01 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1269,7 +1269,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a44c82a-bfd4-43f4-83aa-9d3a51724580")
 		(property "Reference" "#FLG02"
-			(at 206.375 125.73 0)
+			(at 208.915 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1278,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 208.28 125.7299 90)
+			(at 210.82 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,7 +1287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 125.73 0)
+			(at 207.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +1296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 125.73 0)
+			(at 207.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +1305,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 204.47 125.73 0)
+			(at 207.01 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +1460,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 201.93 123.19 0)
+		(at 204.47 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1469,7 +1469,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3c0af92-156d-4459-9ec6-5c8e0cb24c4e")
 		(property "Reference" "#PWR04"
-			(at 201.93 127 0)
+			(at 204.47 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1478,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 201.93 118.11 0)
+			(at 204.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 123.19 0)
+			(at 204.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 123.19 0)
+			(at 204.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 201.93 123.19 0)
+			(at 204.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +1815,7 @@
 		)
 	)
 	(sheet
-		(at 154.94 123.19)
+		(at 157.48 123.19)
 		(size 44.45 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1831,7 +1831,7 @@
 		)
 		(uuid "ae251da9-64d7-46e8-9279-c40d7a440224")
 		(property "Sheetname" "Buck Converter"
-			(at 154.94 122.4784 0)
+			(at 157.48 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1840,7 @@
 			)
 		)
 		(property "Sheetfile" "OSHE-Reader-Buck-Converter.kicad_sch"
-			(at 154.94 140.2846 0)
+			(at 157.48 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1849,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 154.94 137.16 180)
+			(at 157.48 137.16 180)
 			(uuid "98668249-6c6a-4c3c-99a9-c7723bb85f97")
 			(effects
 				(font
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 154.94 125.73 180)
+			(at 157.48 125.73 180)
 			(uuid "3f2b103e-d217-4377-9928-4d1dbd357893")
 			(effects
 				(font
@@ -1869,7 +1869,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 199.39 125.73 0)
+			(at 201.93 125.73 0)
 			(uuid "f856d303-8ebd-4c19-a6a4-d9e7aadcfe93")
 			(effects
 				(font
