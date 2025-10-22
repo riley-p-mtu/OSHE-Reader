@@ -1242,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 60.96) (xy 68.58 59.69)
+			(xy 68.58 60.96) (xy 68.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1252,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 49.53) (xy 68.58 33.02)
+			(xy 68.58 41.91) (xy 68.58 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1546,7 @@
 	)
 	(symbol
 		(lib_id "CUHZ5V6_H3F:CUHZ5V6_H3F")
-		(at 68.58 59.69 90)
+		(at 68.58 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1555,7 +1555,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8c664f0-f971-4879-a18b-6fadedc04de6")
 		(property "Reference" "CR1"
-			(at 72.39 53.3399 90)
+			(at 72.39 45.7199 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1564,7 +1564,7 @@
 			)
 		)
 		(property "Value" "CUHZ5V6_H3F"
-			(at 72.39 55.8799 90)
+			(at 72.39 48.2599 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1573,7 +1573,7 @@
 			)
 		)
 		(property "Footprint" "CUHZ5V6_H3F:SOD-323HEUS2H_TOS"
-			(at 68.58 59.69 0)
+			(at 68.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1583,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=141580&prodName=CUHZ5V6"
-			(at 68.58 59.69 0)
+			(at 68.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1593,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 59.69 0)
+			(at 68.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

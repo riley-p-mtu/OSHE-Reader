@@ -1008,7 +1008,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Battery Charging IC Datasheet: https://www.ti.com/lit/ds/symlink/bq2057c.pdf?ts=1695050793116\nLoad Sharing System Datasheet: https://ww1.microchip.com/downloads/en/AppNotes/01149c.pdf\nPMOS + Schottky Diode Datasheet: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7182/IRF7326D2PBF-Datasheet.pdf"
+	(text "Battery Charging IC Datasheet: https://www.ti.com/lit/ds/symlink/bq2057c.pdf?ts=1695050793116\nLoad Sharing System Datasheet: https://ww1.microchip.com/downloads/en/AppNotes/01149c.pdf"
 		(exclude_from_sim no)
 		(at 28.448 26.416 0)
 		(effects
