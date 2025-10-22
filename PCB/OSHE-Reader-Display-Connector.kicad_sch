@@ -353,7 +353,19 @@
 				)
 				(polyline
 					(pts
-						(xy 4.064 -33.782) (xy 6.096 -33.782)
+						(xy 1.524 -33.782) (xy 3.556 -33.782)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -33.782) (xy 8.636 -33.782)
 					)
 					(stroke
 						(width 0.1524)
@@ -364,7 +376,15 @@
 					)
 				)
 				(text "Mounting"
-					(at 5.08 -33.401 0)
+					(at 2.54 -33.401 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(text "Mounting"
+					(at 7.62 -33.401 0)
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -804,7 +824,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -36.83 90)
+					(at 2.54 -36.83 90)
 					(length 3.048)
 					(name ""
 						(effects
@@ -813,7 +833,25 @@
 							)
 						)
 					)
-					(number "MP"
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -36.83 90)
+					(length 3.048)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -962,8 +1000,11 @@
 		(pin "7"
 			(uuid "109ee19d-8d0e-4a9a-960a-04f5d5d2054e")
 		)
-		(pin "MP"
+		(pin "25"
 			(uuid "75b0a7f9-4ba8-4676-a17e-d6890572b586")
+		)
+		(pin "26"
+			(uuid "ed819cd9-0776-4d55-a661-f8ec19ff8db4")
 		)
 		(instances
 			(project ""
