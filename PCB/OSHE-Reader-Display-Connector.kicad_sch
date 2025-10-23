@@ -901,7 +901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FH12A_24S_0_5SH_55_:CONN24_1X24_DRC_FFC_HIR"
 			(at 92.71 67.31 0)
 			(effects
 				(font
