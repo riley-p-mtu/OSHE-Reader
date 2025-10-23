@@ -1408,7 +1408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB4125_GF_A:CONN6_USB4125_GCT"
 			(at 41.91 38.1 0)
 			(effects
 				(font
