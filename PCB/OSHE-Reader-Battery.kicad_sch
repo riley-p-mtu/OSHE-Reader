@@ -1271,7 +1271,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 45.72) (xy 111.76 45.72)
+			(xy 115.57 45.72) (xy 113.03 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1308,6 +1308,16 @@
 			(type default)
 		)
 		(uuid "a97d0143-436e-4930-9588-8c3f075bd556")
+	)
+	(wire
+		(pts
+			(xy 105.41 45.72) (xy 102.87 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2145a7d-5117-49da-8357-53fafb743b5a")
 	)
 	(wire
 		(pts
@@ -1361,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 45.72) (xy 104.14 45.72)
+			(xy 92.71 45.72) (xy 95.25 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1676,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 101.6 45.72 180)
+		(at 92.71 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1844,7 +1854,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 45.72 90)
+		(at 99.06 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1853,23 +1863,23 @@
 		(fields_autoplaced yes)
 		(uuid "3c1078fa-0c02-4216-ba43-99b6f2fbbb4f")
 		(property "Reference" "R_{SNS}1"
-			(at 107.95 39.37 90)
+			(at 99.06 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.2"
-			(at 107.95 41.91 90)
+		(property "Value" "0.1"
+			(at 99.06 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 107.95 47.498 90)
+		(property "Footprint" "WSL2512R1000FEA:RES_2512_WSL"
+			(at 99.06 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 45.72 0)
+			(at 99.06 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1897,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 107.95 45.72 0)
+			(at 99.06 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,6 +2450,74 @@
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/9b683008-b3f5-4049-bcf9-7e8cdd298ddd"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb8f6124-992a-4dc1-9222-6367fe96ccd9")
+		(property "Reference" "R_{SNS}2"
+			(at 109.22 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1"
+			(at 109.22 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WSL2512R1000FEA:RES_2512_WSL"
+			(at 109.22 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63a94fcf-4150-4dc1-9bbe-bdd543f2d8c1")
+		)
+		(pin "1"
+			(uuid "fa8fca5f-d4ab-4d1d-b02f-216b0e312d30")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/9b683008-b3f5-4049-bcf9-7e8cdd298ddd"
+					(reference "R_{SNS}2")
 					(unit 1)
 				)
 			)

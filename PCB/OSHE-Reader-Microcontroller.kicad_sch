@@ -813,7 +813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP32-C6-DEV-KIT-N8:ESP32-C6-DEV-KIT-N8"
 			(at 83.82 68.58 0)
 			(effects
 				(font
