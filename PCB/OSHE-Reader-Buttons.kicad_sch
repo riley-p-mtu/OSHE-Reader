@@ -381,6 +381,76 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 66.04 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3621147d-e841-4152-b211-a752a59833c9")
+	)
+	(junction
+		(at 139.7 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a74215f-0f74-47de-b6d0-bf89f7fe9d91")
+	)
+	(junction
+		(at 140.97 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80040a7a-a467-4868-a428-e77c308559d6")
+	)
+	(junction
+		(at 66.04 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6282c5d-f2e5-4745-8f0c-5f22e0d93247")
+	)
+	(junction
+		(at 113.03 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac533a8e-152c-40f8-a0cc-de6ebc22d05c")
+	)
+	(wire
+		(pts
+			(xy 49.53 73.66) (xy 40.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00536f7c-eaf1-4367-9c8f-f3705abd049d")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 113.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03eaa2e9-c250-434b-ad09-ce38114de635")
+	)
+	(wire
+		(pts
+			(xy 93.98 81.28) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08481478-3ce7-433f-a978-2600c005cc0a")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef4c255-abd3-4f90-999f-0cae17e24aff")
+	)
 	(wire
 		(pts
 			(xy 66.04 55.88) (xy 66.04 58.42)
@@ -390,6 +460,36 @@
 			(type default)
 		)
 		(uuid "22546f16-fd19-4904-bfb9-bac4623d115d")
+	)
+	(wire
+		(pts
+			(xy 73.66 46.99) (xy 66.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243dadd8-b888-4b71-9d5d-89c272a1d5c2")
+	)
+	(wire
+		(pts
+			(xy 40.64 73.66) (xy 40.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7a70f9-bde4-4e51-8010-ddd27ef4f8b2")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba24017-9c72-45dd-93db-ba57f1487d94")
 	)
 	(wire
 		(pts
@@ -403,6 +503,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 85.09) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8ae51a-727c-4215-85a8-e532cb745c60")
+	)
+	(wire
+		(pts
 			(xy 66.04 46.99) (xy 59.69 46.99)
 		)
 		(stroke
@@ -410,6 +520,86 @@
 			(type default)
 		)
 		(uuid "45f3985a-8a93-4d99-b6b1-a6c83404ce05")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49dfeb7c-f141-4dda-ad8d-19ce7f62bc21")
+	)
+	(wire
+		(pts
+			(xy 124.46 73.66) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8a13b9-f946-4208-8884-fc96f0d7f615")
+	)
+	(wire
+		(pts
+			(xy 116.84 49.53) (xy 116.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4ab02f-e274-4d33-86fe-c9c173ca0c84")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 144.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e8052d-eed9-4fae-8fb4-9562626fb500")
+	)
+	(wire
+		(pts
+			(xy 59.69 73.66) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5228ede9-16e6-4cc7-8816-fc542524050a")
+	)
+	(wire
+		(pts
+			(xy 140.97 59.69) (xy 140.97 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c91d6e-0069-423e-a4b0-7ed7269fed7a")
+	)
+	(wire
+		(pts
+			(xy 133.35 49.53) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53336563-84fc-4168-bf64-a5830145eae0")
+	)
+	(wire
+		(pts
+			(xy 113.03 105.41) (xy 113.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55322335-86fe-447a-96b3-3c182fff5a9e")
 	)
 	(wire
 		(pts
@@ -423,6 +613,36 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 93.98) (xy 100.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2195e2-a69b-4579-9374-4ed7349f36ff")
+	)
+	(wire
+		(pts
+			(xy 110.49 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801d54f0-88bf-4581-bf66-fea72c1edee5")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815f8a80-3d88-43b0-b1df-64c87c0ad78e")
+	)
+	(wire
+		(pts
 			(xy 49.53 46.99) (xy 40.64 46.99)
 		)
 		(stroke
@@ -431,64 +651,311 @@
 		)
 		(uuid "8d2b3561-8dff-4c38-b902-26f580642724")
 	)
-	(hierarchical_label "buttonDownLeft"
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d393af-7bae-4b2f-b8dc-ced48600691f")
+	)
+	(wire
+		(pts
+			(xy 123.19 49.53) (xy 116.84 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f0e44c-b719-40ba-b1d7-26c3f3b19ba7")
+	)
+	(wire
+		(pts
+			(xy 116.84 73.66) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ee6daf-1272-4178-ad78-ed1091ea7a5a")
+	)
+	(wire
+		(pts
+			(xy 66.04 86.36) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db82dcb0-6508-425f-805f-ecb3d6476a78")
+	)
+	(wire
+		(pts
+			(xy 153.67 49.53) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8afd34-bd01-40f1-8b26-e178e25a6ef5")
+	)
+	(wire
+		(pts
+			(xy 140.97 49.53) (xy 140.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f851c57d-67e0-468b-824f-17b5eb740694")
+	)
+	(hierarchical_label "buttonUpRight"
 		(shape input)
-		(at 40.64 62.23 0)
+		(at 116.84 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f6eedbe-17cb-41f0-8f08-7b9fd633ba9e")
+	)
+	(hierarchical_label "DownScreenbutton"
+		(shape output)
+		(at 69.85 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1372db79-bae5-4c83-b43d-26a618fb85d0")
+		(uuid "48c3108b-58cc-4c88-8498-88e765acb5b1")
+	)
+	(hierarchical_label "HomeButton"
+		(shape output)
+		(at 119.38 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52dbdf98-9b91-4282-ba19-1c79498fbecd")
+	)
+	(hierarchical_label "UpScreenbutton"
+		(shape output)
+		(at 153.67 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f8d9252-8002-41e7-94b2-ea02800c1232")
+	)
+	(hierarchical_label "buttonUpLeft"
+		(shape input)
+		(at 40.64 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "869a1373-cf54-4df1-b8eb-4754b6058f8e")
+	)
+	(hierarchical_label "UpScreenbutton"
+		(shape output)
+		(at 73.66 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cde805e-6f5b-4f4c-9295-b99563d4c7dc")
 	)
 	(hierarchical_label "buttonDownRight"
 		(shape input)
-		(at 116.84 63.5 0)
+		(at 116.84 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a847fd9f-58ac-4f46-bb21-eae51e59ae19")
+	)
+	(hierarchical_label "buttonDownLeft"
+		(shape input)
+		(at 40.64 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1a46c6f-9cd6-47a7-a019-75dc2510493f")
+	)
+	(hierarchical_label "DownScreenbutton"
+		(shape output)
+		(at 144.78 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1c83f9ec-2e28-4b50-b348-c3462924c8f7")
+		(uuid "e8334e3e-ad6f-4cc7-8f8a-af16c3bd4aa8")
 	)
 	(hierarchical_label "centerButton"
 		(shape input)
-		(at 90.17 77.47 0)
+		(at 93.98 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "36058db7-fe2c-49d2-88cc-d20973b6804b")
+		(uuid "eaeb3e48-4323-434a-b769-e93f46d68cbc")
 	)
-	(hierarchical_label "buttonUPLeft"
-		(shape input)
-		(at 40.64 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be38b92-3c78-4097-bd61-6e4840d79dd6")
+		(property "Reference" "#PWR010"
+			(at 140.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "73b7cdd9-b50d-4006-a4f7-93ad4b94ffde")
+		(property "Value" "GND"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b64e3fe2-4a9b-4d55-87d6-3a3a2bc2d44f")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
 	)
-	(hierarchical_label "buttonUPRight"
-		(shape input)
-		(at 116.84 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e1c4f7-5994-4aa1-af7c-3bbf72876abf")
+		(property "Reference" "#PWR09"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "a9397884-94a5-423e-8e32-28901b247ec6")
+		(property "Value" "GND"
+			(at 113.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fbc13c9-a0da-4d6c-9d7f-15f0e6462ea6")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 95.25 90.17 0)
+		(at 105.41 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -497,7 +964,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ed5d5b3-188e-4420-80c6-d9dcce01ecdd")
 		(property "Reference" "SW5"
-			(at 95.25 82.55 0)
+			(at 105.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -505,7 +972,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 95.25 85.09 0)
+			(at 105.41 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 85.09 0)
+			(at 105.41 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 85.09 0)
+			(at 105.41 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +998,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 90.17 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,33 +1155,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 130.81 69.85 0)
+		(lib_id "Device:R")
+		(at 113.03 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b223d5bc-6af0-44a5-b31d-6d1cd813e9f5")
-		(property "Reference" "SW2"
-			(at 130.81 62.23 0)
+		(uuid "91fbe539-3e6a-47a7-8046-e0c3e35af37c")
+		(property "Reference" "R18"
+			(at 115.57 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 130.81 64.77 0)
+		(property "Value" "100k"
+			(at 115.57 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 64.77 0)
+			(at 111.252 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +1192,145 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 64.77 0)
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c0b48f5-9b65-4a3f-84c0-ee85dbbeb119")
+		)
+		(pin "2"
+			(uuid "388344c7-4850-4d2e-bbad-c711b4995632")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0d77e11-a8cb-4358-a866-07c3f62d1fe3")
+		(property "Reference" "R17"
+			(at 142.24 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 142.24 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.922 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "665b6060-e61e-40b4-8a64-ac81069637fe")
+		)
+		(pin "2"
+			(uuid "f5d779d1-3bf8-4e02-ba33-9291c9144330")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b223d5bc-6af0-44a5-b31d-6d1cd813e9f5")
+		(property "Reference" "SW2"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,7 +1339,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 130.81 69.85 0)
+			(at 129.54 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,6 +1357,142 @@
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7195032-0296-48d9-92c9-4eb85f684184")
+		(property "Reference" "#PWR08"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f73d116-c47b-470c-a60d-5f2094924f4c")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd9a761b-9e40-4348-ba0f-0cfecbe6428b")
+		(property "Reference" "R15"
+			(at 68.58 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 68.58 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.262 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a0688f5-2e1a-49bf-ba95-5542c827404d")
+		)
+		(pin "2"
+			(uuid "a2607b61-1f21-44a6-9776-e08be300a182")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -827,7 +1570,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 58.42 73.66 0)
+		(at 54.61 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -836,7 +1579,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9ef0060-f9ea-4bda-87b6-66c206fbe74c")
 		(property "Reference" "SW4"
-			(at 58.42 66.04 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,7 +1587,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 58.42 68.58 0)
+			(at 54.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +1595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 68.58 0)
+			(at 54.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +1604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 68.58 0)
+			(at 54.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +1613,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 73.66 0)
+			(at 54.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,6 +1699,142 @@
 			(project ""
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f81801fe-6645-4947-bcb3-5275fdce58e9")
+		(property "Reference" "#PWR07"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b5f4923-d056-4470-b1c9-ccd4b1b18cf3")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc68194f-aef4-4135-a2ac-d22fc09aff0f")
+		(property "Reference" "R16"
+			(at 143.51 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 143.51 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.192 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba516f57-6c21-4c34-9aa6-ec405393de0b")
+		)
+		(pin "2"
+			(uuid "c452779e-0c74-4e04-8b63-89d5fdb9db86")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "R16")
 					(unit 1)
 				)
 			)
