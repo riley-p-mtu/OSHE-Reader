@@ -1764,6 +1764,86 @@
 				(justify left top)
 			)
 		)
+		(pin "buttonDownLeft" input
+			(at 228.6 39.37 180)
+			(uuid "d63da643-fa28-46e1-b170-c83855fd6934")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "buttonUpLeft" input
+			(at 228.6 48.26 180)
+			(uuid "78c12656-25ca-4449-b1ed-d4ea96d16be2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "centerButton" input
+			(at 228.6 58.42 180)
+			(uuid "c6c50fd3-b4fe-434d-a07e-b8162442b999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "buttonDownRight" input
+			(at 228.6 43.18 180)
+			(uuid "4112ae2b-296a-45ab-a188-abbc1414ed22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "buttonUpRight" input
+			(at 228.6 52.07 180)
+			(uuid "3a9c1af4-299e-47d3-b939-f4c483f12277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DownScreenbutton" output
+			(at 266.065 40.64 0)
+			(uuid "5de38d6e-8c46-48a9-bb31-5d87dd776c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HomeButton" output
+			(at 266.065 58.42 0)
+			(uuid "f70427e5-5482-4091-8c23-5a04e638c49f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UpScreenbutton" output
+			(at 266.065 49.53 0)
+			(uuid "b1847b9e-3425-4b77-a117-b28c799296dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
