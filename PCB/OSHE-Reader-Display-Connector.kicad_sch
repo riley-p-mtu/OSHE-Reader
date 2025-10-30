@@ -1437,7 +1437,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSS138"
+		(symbol "Transistor_FET:Si1308EDL"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1454,7 +1454,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BSS138"
+			(property "Value" "Si1308EDL"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1463,7 +1463,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1474,7 +1474,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1484,7 +1484,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "30V Vds, 1.4A Id, N-Channel MOSFET, SC-70"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1502,7 +1502,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1511,7 +1511,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSS138_0_1"
+			(symbol "Si1308EDL_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1678,7 +1678,7 @@
 					)
 				)
 			)
-			(symbol "BSS138_1_1"
+			(symbol "Si1308EDL_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1855,23 +1855,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 69.85) (xy 38.1 67.31)
+			(xy 38.1 69.85) (xy 38.1 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "104816fc-a101-42bb-98a9-79fad33f3f02")
-	)
-	(wire
-		(pts
-			(xy 48.26 59.69) (xy 48.26 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1180014a-f9c8-41ae-8a43-82b154d94df4")
 	)
 	(wire
 		(pts
@@ -1975,6 +1965,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d16d907-030a-4b0d-b4ef-2da1fe230b6d")
+	)
+	(wire
+		(pts
 			(xy 88.9 81.28) (xy 99.06 81.28)
 		)
 		(stroke
@@ -1992,6 +1992,16 @@
 			(type default)
 		)
 		(uuid "50f05474-7128-483a-a174-e1b974513435")
+	)
+	(wire
+		(pts
+			(xy 115.57 55.88) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537996de-f6ee-40e8-928e-1727fe6838ab")
 	)
 	(wire
 		(pts
@@ -2055,6 +2065,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 60.96) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7389312f-7682-4e04-bf4b-474d9a571ab4")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d13594-4793-4d46-8033-6e6d59b059f3")
+	)
+	(wire
+		(pts
 			(xy 104.14 93.98) (xy 121.92 93.98)
 		)
 		(stroke
@@ -2065,13 +2095,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 72.39) (xy 48.26 74.93)
+			(xy 48.26 71.12) (xy 48.26 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8087cafc-8ea8-4003-a90a-25926217fb3e")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 121.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8223ed30-7430-460f-b46e-df153d1bf28b")
 	)
 	(wire
 		(pts
@@ -2085,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 67.31) (xy 40.64 67.31)
+			(xy 38.1 66.04) (xy 40.64 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2105,6 +2145,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91755393-94c3-4355-8337-121a625f355a")
+	)
+	(wire
+		(pts
 			(xy 105.41 48.26) (xy 121.92 48.26)
 		)
 		(stroke
@@ -2112,6 +2162,26 @@
 			(type default)
 		)
 		(uuid "9275f4f9-7b66-4d7f-84d7-d805ec2eb134")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 48.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9550cb8a-aa54-4414-a2ca-f74b9edc3f56")
+	)
+	(wire
+		(pts
+			(xy 114.3 68.58) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979375d5-1d2b-4dd9-bf2f-9f80e2a9fbc4")
 	)
 	(wire
 		(pts
@@ -2172,6 +2242,26 @@
 			(type default)
 		)
 		(uuid "b9c49c71-d397-4116-8aa6-f9faad5b7d01")
+	)
+	(wire
+		(pts
+			(xy 115.57 66.04) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bceaa78a-ffe6-407c-bd77-d10d684780ee")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf45e741-ce91-4122-8d91-adc485916507")
 	)
 	(wire
 		(pts
@@ -2313,6 +2403,26 @@
 		)
 		(uuid "ffc25b47-a250-4c18-a30e-f10223514bab")
 	)
+	(label "GDR"
+		(at 114.3 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dfa9174-fd3f-4a35-85c0-933048e7452c")
+	)
+	(label "SCLK"
+		(at 114.3 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e316fd4-5eb5-486a-a648-77680579f694")
+	)
 	(label "PREVGH"
 		(at 73.66 59.69 0)
 		(effects
@@ -2322,6 +2432,26 @@
 			(justify left bottom)
 		)
 		(uuid "155c9e9b-d623-42d0-8635-be0bbf8c9819")
+	)
+	(label "RESE"
+		(at 48.26 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a953299-7b98-4499-baba-435804c5c3b6")
+	)
+	(label "RES"
+		(at 114.3 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a86a336-ae7e-4d15-8092-56cea503c70f")
 	)
 	(label "PREVGL"
 		(at 114.3 93.98 0)
@@ -2343,6 +2473,26 @@
 		)
 		(uuid "392a4a0c-af81-45dc-b023-afec2f7b0a78")
 	)
+	(label "GDR"
+		(at 38.1 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3be52624-2fcf-41ff-85d9-1391e10bf3e3")
+	)
+	(label "CS"
+		(at 115.57 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50c900b1-4d26-4e2e-90b7-ea18d46f7fcb")
+	)
 	(label "PREVGL"
 		(at 66.04 38.1 0)
 		(effects
@@ -2352,6 +2502,78 @@
 			(justify left bottom)
 		)
 		(uuid "6fc4cd68-6ef5-4e91-8316-5fba752ba135")
+	)
+	(label "BUSY"
+		(at 113.03 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9645e425-6469-44fe-aeaf-e1bfe664903f")
+	)
+	(label "D{slash}C"
+		(at 114.3 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf7672a2-6277-4195-a93e-b73700945d52")
+	)
+	(label "VCOM"
+		(at 118.11 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cbd7d051-2d45-4f76-96ad-0ea9321515d2")
+	)
+	(label "RESE"
+		(at 113.03 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deab7c32-30d1-4e42-a9d7-fa6fd2204932")
+	)
+	(label "BS"
+		(at 115.57 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1d7e20e-5df6-47ef-86b0-a72f9612e8fe")
+	)
+	(global_label "COPI"
+		(shape input)
+		(at 116.84 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d28d7a9e-9a89-4554-829e-a68012d30db7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.3795 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2704,6 +2926,82 @@
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Si1308EDL")
+		(at 45.72 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2258ff2a-0c0e-4bc7-9e90-29b26e3f4506")
+		(property "Reference" "Q1"
+			(at 52.07 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Si1308EDL"
+			(at 52.07 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 50.8 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 1.4A Id, N-Channel MOSFET, SC-70"
+			(at 45.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a8f268d-dbc8-4f81-80cc-baa85ff5fca0")
+		)
+		(pin "1"
+			(uuid "88829e87-1123-45e4-a65e-c961fd88be78")
+		)
+		(pin "3"
+			(uuid "95c22832-a2a8-4d9d-b493-0af3d6ffc241")
+		)
+		(instances
+			(project ""
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3590,82 +3888,6 @@
 			(project ""
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 45.72 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5e0e0f6-6a10-4954-b624-283f7fc3328d")
-		(property "Reference" "Q2"
-			(at 52.07 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 52.07 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 50.8 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 50.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 45.72 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9e36004-7c10-48fa-a66c-9685234c8f31")
-		)
-		(pin "3"
-			(uuid "10963ab4-520d-49bf-9e90-c4eb3226983b")
-		)
-		(pin "2"
-			(uuid "2f29be8e-288a-474a-a041-71cecd47ed45")
-		)
-		(instances
-			(project ""
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
