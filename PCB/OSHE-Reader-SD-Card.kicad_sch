@@ -2285,7 +2285,7 @@
 		(uuid "a5a81a0a-82c7-4891-adc1-3a55ca406d46")
 	)
 	(hierarchical_label "CIPO"
-		(shape output)
+		(shape input)
 		(at 72.39 64.77 180)
 		(effects
 			(font

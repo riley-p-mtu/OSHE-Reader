@@ -279,6 +279,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 66.04 73.66)
@@ -610,29 +711,7 @@
 		)
 		(uuid "f851c57d-67e0-468b-824f-17b5eb740694")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 66.04 58.42 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08fb5bdf-68f5-44a9-9691-273a5be03b4d")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 139.7 93.98 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d72085c-d60b-434f-8564-69c9383a2ca3")
-	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "buttonUpRight"
 		(shape input)
 		(at 116.84 38.1 180)
 		(effects
@@ -665,7 +744,7 @@
 		)
 		(uuid "52dbdf98-9b91-4282-ba19-1c79498fbecd")
 	)
-	(hierarchical_label "LeftScreenbutton"
+	(hierarchical_label "UpScreenbutton"
 		(shape output)
 		(at 153.67 49.53 0)
 		(effects
@@ -676,29 +755,7 @@
 		)
 		(uuid "6f8d9252-8002-41e7-94b2-ea02800c1232")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 66.04 93.98 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "78f1ee67-144d-4d23-a2b8-038d406b602a")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 113.03 113.03 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84c16386-ba8b-476b-8c34-48a2cdd26a00")
-	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "buttonUpLeft"
 		(shape input)
 		(at 40.64 36.83 180)
 		(effects
@@ -720,7 +777,7 @@
 		)
 		(uuid "8cde805e-6f5b-4f4c-9295-b99563d4c7dc")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "buttonDownRight"
 		(shape input)
 		(at 116.84 63.5 180)
 		(effects
@@ -731,7 +788,7 @@
 		)
 		(uuid "a847fd9f-58ac-4f46-bb21-eae51e59ae19")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "buttonDownLeft"
 		(shape input)
 		(at 40.64 62.23 180)
 		(effects
@@ -742,7 +799,7 @@
 		)
 		(uuid "c1a46c6f-9cd6-47a7-a019-75dc2510493f")
 	)
-	(hierarchical_label "RightScreenbutton"
+	(hierarchical_label "DownScreenbutton"
 		(shape output)
 		(at 144.78 73.66 0)
 		(effects
@@ -753,7 +810,7 @@
 		)
 		(uuid "e8334e3e-ad6f-4cc7-8f8a-af16c3bd4aa8")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "centerButton"
 		(shape input)
 		(at 93.98 81.28 180)
 		(effects
@@ -764,16 +821,137 @@
 		)
 		(uuid "eaeb3e48-4323-434a-b769-e93f46d68cbc")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 140.97 64.77 270)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be38b92-3c78-4097-bd61-6e4840d79dd6")
+		(property "Reference" "#PWR010"
+			(at 140.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify right)
 		)
-		(uuid "f5bd7a62-1a29-475f-9a59-c7e5b261f8e8")
+		(property "Value" "GND"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b64e3fe2-4a9b-4d55-87d6-3a3a2bc2d44f")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e1c4f7-5994-4aa1-af7c-3bbf72876abf")
+		(property "Reference" "#PWR09"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fbc13c9-a0da-4d6c-9d7f-15f0e6462ea6")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -838,6 +1016,72 @@
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "555e2336-2e74-49ee-bd23-a563de96b89a")
+		(property "Reference" "#PWR06"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e655caf-5132-47b4-ad39-fb90743aa2b8")
+		)
+		(instances
+			(project ""
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1119,6 +1363,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 139.7 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7195032-0296-48d9-92c9-4eb85f684184")
+		(property "Reference" "#PWR08"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f73d116-c47b-470c-a60d-5f2094924f4c")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 66.04 82.55 0)
 		(unit 1)
@@ -1389,6 +1699,72 @@
 			(project ""
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f81801fe-6645-4947-bcb3-5275fdce58e9")
+		(property "Reference" "#PWR07"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b5f4923-d056-4470-b1c9-ccd4b1b18cf3")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/a815e849-6263-40fd-b2e2-975b77f2c5aa"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

@@ -1764,6 +1764,56 @@
 				(justify left top)
 			)
 		)
+		(pin "buttonDownLeft" input
+			(at 228.6 39.37 180)
+			(uuid "d63da643-fa28-46e1-b170-c83855fd6934")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "buttonUpLeft" input
+			(at 228.6 48.26 180)
+			(uuid "78c12656-25ca-4449-b1ed-d4ea96d16be2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "centerButton" input
+			(at 228.6 58.42 180)
+			(uuid "c6c50fd3-b4fe-434d-a07e-b8162442b999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "buttonDownRight" input
+			(at 228.6 43.18 180)
+			(uuid "4112ae2b-296a-45ab-a188-abbc1414ed22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "buttonUpRight" input
+			(at 228.6 52.07 180)
+			(uuid "3a9c1af4-299e-47d3-b939-f4c483f12277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "DownScreenbutton" output
 			(at 266.065 40.64 0)
 			(uuid "5de38d6e-8c46-48a9-bb31-5d87dd776c52")
@@ -1775,7 +1825,7 @@
 			)
 		)
 		(pin "HomeButton" output
-			(at 266.065 52.07 0)
+			(at 266.065 58.42 0)
 			(uuid "f70427e5-5482-4091-8c23-5a04e638c49f")
 			(effects
 				(font
@@ -1785,48 +1835,8 @@
 			)
 		)
 		(pin "UpScreenbutton" output
-			(at 266.065 37.465 0)
+			(at 266.065 49.53 0)
 			(uuid "b1847b9e-3425-4b77-a117-b28c799296dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 228.6 58.42 180)
-			(uuid "e68f0ddd-e689-4df2-b2b2-7f1ed6cc032f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3V3" input
-			(at 228.6 40.64 180)
-			(uuid "61bf1c34-ac49-4a8b-9960-d978aa49b56e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LeftScreenbutton" output
-			(at 266.065 44.45 0)
-			(uuid "93b9c1ea-4029-4464-95c9-77ac33469f62")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RightScreenbutton" output
-			(at 266.065 48.26 0)
-			(uuid "8a98f6e7-c260-4311-848a-ef8058d13fdf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,66 +1998,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "3V3" input
-			(at 172.085 40.64 180)
-			(uuid "06525ed7-fb6c-4c1e-a017-0181579cbb27")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CS" input
-			(at 211.455 55.88 0)
-			(uuid "454714e6-1c27-4d9b-a85a-aab51959e638")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 172.085 54.61 180)
-			(uuid "1a9cee77-477e-436d-a968-86a196526219")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CIPO" output
-			(at 211.455 44.45 0)
-			(uuid "b519cd6d-4854-4397-8d45-857e9ebb9501")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "COPI" input
-			(at 211.455 48.26 0)
-			(uuid "fd593a77-f3c5-4b87-81f6-36043aec3701")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCK" input
-			(at 211.455 52.07 0)
-			(uuid "d07e7214-3681-428a-b4a8-fdd486e6f2ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
