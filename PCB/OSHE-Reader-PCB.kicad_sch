@@ -1990,6 +1990,66 @@
 				(justify left top)
 			)
 		)
+		(pin "3V3" input
+			(at 172.085 40.64 180)
+			(uuid "06525ed7-fb6c-4c1e-a017-0181579cbb27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 211.455 55.88 0)
+			(uuid "454714e6-1c27-4d9b-a85a-aab51959e638")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 172.085 54.61 180)
+			(uuid "1a9cee77-477e-436d-a968-86a196526219")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CIPO" output
+			(at 211.455 44.45 0)
+			(uuid "b519cd6d-4854-4397-8d45-857e9ebb9501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COPI" input
+			(at 211.455 48.26 0)
+			(uuid "fd593a77-f3c5-4b87-81f6-36043aec3701")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 211.455 52.07 0)
+			(uuid "d07e7214-3681-428a-b4a8-fdd486e6f2ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
