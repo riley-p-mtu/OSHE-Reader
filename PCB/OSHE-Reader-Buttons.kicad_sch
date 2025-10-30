@@ -665,7 +665,7 @@
 		)
 		(uuid "52dbdf98-9b91-4282-ba19-1c79498fbecd")
 	)
-	(hierarchical_label "UpScreenbutton"
+	(hierarchical_label "LeftScreenbutton"
 		(shape output)
 		(at 153.67 49.53 0)
 		(effects
@@ -742,7 +742,7 @@
 		)
 		(uuid "c1a46c6f-9cd6-47a7-a019-75dc2510493f")
 	)
-	(hierarchical_label "DownScreenbutton"
+	(hierarchical_label "RightScreenbutton"
 		(shape output)
 		(at 144.78 73.66 0)
 		(effects

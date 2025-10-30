@@ -1775,7 +1775,7 @@
 			)
 		)
 		(pin "HomeButton" output
-			(at 266.065 58.42 0)
+			(at 266.065 52.07 0)
 			(uuid "f70427e5-5482-4091-8c23-5a04e638c49f")
 			(effects
 				(font
@@ -1785,7 +1785,7 @@
 			)
 		)
 		(pin "UpScreenbutton" output
-			(at 266.065 49.53 0)
+			(at 266.065 37.465 0)
 			(uuid "b1847b9e-3425-4b77-a117-b28c799296dc")
 			(effects
 				(font
@@ -1812,6 +1812,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "LeftScreenbutton" output
+			(at 266.065 44.45 0)
+			(uuid "93b9c1ea-4029-4464-95c9-77ac33469f62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RightScreenbutton" output
+			(at 266.065 48.26 0)
+			(uuid "8a98f6e7-c260-4311-848a-ef8058d13fdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
