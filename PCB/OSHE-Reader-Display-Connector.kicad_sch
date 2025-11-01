@@ -2484,16 +2484,6 @@
 		)
 		(uuid "0dfa9174-fd3f-4a35-85c0-933048e7452c")
 	)
-	(label "SCLK"
-		(at 114.3 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e316fd4-5eb5-486a-a648-77680579f694")
-	)
 	(label "PREVGH"
 		(at 73.66 59.69 0)
 		(effects
@@ -2513,16 +2503,6 @@
 			(justify left bottom)
 		)
 		(uuid "1a953299-7b98-4499-baba-435804c5c3b6")
-	)
-	(label "RES"
-		(at 114.3 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a86a336-ae7e-4d15-8092-56cea503c70f")
 	)
 	(label "PREVGL"
 		(at 114.3 93.98 0)
@@ -2554,26 +2534,6 @@
 		)
 		(uuid "3be52624-2fcf-41ff-85d9-1391e10bf3e3")
 	)
-	(label "CS"
-		(at 115.57 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50c900b1-4d26-4e2e-90b7-ea18d46f7fcb")
-	)
-	(label "3.3V ?"
-		(at 30.48 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ebf0b3d-627b-423c-ae02-310352ad6ae3")
-	)
 	(label "PREVGL"
 		(at 66.04 38.1 0)
 		(effects
@@ -2583,46 +2543,6 @@
 			(justify left bottom)
 		)
 		(uuid "6fc4cd68-6ef5-4e91-8316-5fba752ba135")
-	)
-	(label "BUSY"
-		(at 113.03 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9645e425-6469-44fe-aeaf-e1bfe664903f")
-	)
-	(label "D{slash}C"
-		(at 114.3 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf7672a2-6277-4195-a93e-b73700945d52")
-	)
-	(label "VCOM"
-		(at 118.11 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbd7d051-2d45-4f76-96ad-0ea9321515d2")
-	)
-	(label "3.3V ?"
-		(at 118.11 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce6e4bdf-4352-4104-bba5-688511c4b75c")
 	)
 	(label "RESE"
 		(at 113.03 43.18 0)
@@ -2634,15 +2554,27 @@
 		)
 		(uuid "deab7c32-30d1-4e42-a9d7-fa6fd2204932")
 	)
-	(label "BS"
-		(at 111.76 55.88 0)
+	(hierarchical_label "D{slash}C"
+		(shape input)
+		(at 114.3 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "f1d7e20e-5df6-47ef-86b0-a72f9612e8fe")
+		(uuid "13e2698d-a759-40ea-a44f-943aa7870612")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 119.38 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29d618cd-3e9a-4c96-ab78-4573fa064a38")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2654,6 +2586,50 @@
 			(justify right)
 		)
 		(uuid "3af2a447-9451-4690-be36-e1f67dd5db11")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 115.57 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e0e6b86-c2b3-4eb9-8617-334b9f2725a4")
+	)
+	(hierarchical_label "RES"
+		(shape input)
+		(at 114.3 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c6e6d82-79fc-4217-9f19-507c8919e976")
+	)
+	(hierarchical_label "BS"
+		(shape input)
+		(at 110.49 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d33eeb0-516c-4498-9c11-0dcc83791f81")
+	)
+	(hierarchical_label "BUSY"
+		(shape input)
+		(at 113.03 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d7cc324-f978-455c-a11e-729367009e3c")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2698,6 +2674,39 @@
 			(justify right)
 		)
 		(uuid "b8b43736-c068-4e32-9b75-2e4ed56b4db0")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 114.3 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf0dcece-bf10-4229-ab78-6ef47189dfe4")
+	)
+	(hierarchical_label "VCOM"
+		(shape input)
+		(at 113.03 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c042c7ea-4232-4fc6-99e7-2ec1b64248c2")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 30.48 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c95266e4-e442-4809-bf69-5c08a1ef50d7")
 	)
 	(hierarchical_label "GND"
 		(shape input)
