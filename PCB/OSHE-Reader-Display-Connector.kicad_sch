@@ -1744,8 +1744,15 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(href "https://files.waveshare.com/wiki/E-Paper-ESP32-Driver-Board/E-Paper_ESP32_Driver_Board_V3.pdf")
 		)
 		(uuid "1dc0fe0a-1835-47a3-814c-79ab9cefd4f6")
+	)
+	(junction
+		(at 119.38 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17bcdacf-53a8-4507-ab0c-b2d9cc18e846")
 	)
 	(junction
 		(at 52.07 40.64)
@@ -1770,6 +1777,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7543f417-f873-4d38-8f9f-d0fecfffee1f")
+	)
+	(junction
+		(at 95.25 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e532c90-ccec-457c-96a4-4c650ff12d71")
 	)
 	(junction
 		(at 88.9 86.36)
@@ -1806,6 +1819,14 @@
 		(uuid "05563790-1953-481d-af4d-62e69f024188")
 	)
 	(no_connect
+		(at 121.92 53.34)
+		(uuid "27709a7c-f376-43df-85fe-0c0eb0958efc")
+	)
+	(no_connect
+		(at 121.92 50.8)
+		(uuid "47def448-9bae-4b1f-9fb3-46cd607da43a")
+	)
+	(no_connect
 		(at 121.92 83.82)
 		(uuid "4c3ab5b8-e7c1-4e27-9328-33816b739205")
 	)
@@ -1822,6 +1843,16 @@
 			(type default)
 		)
 		(uuid "01a7d174-5cac-4022-8028-5e216fca218f")
+	)
+	(wire
+		(pts
+			(xy 121.92 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025a761c-d9fb-40f9-9de2-68a1619d619b")
 	)
 	(wire
 		(pts
@@ -1945,6 +1976,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a352e50-26e9-43fe-b323-04533e46717e")
+	)
+	(wire
+		(pts
 			(xy 88.9 88.9) (xy 104.14 88.9)
 		)
 		(stroke
@@ -1962,6 +2003,16 @@
 			(type default)
 		)
 		(uuid "431d2c4d-1d73-43af-b258-699fa07215f9")
+	)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488fbe64-4c6e-4ee4-8ab3-754513a0bbdf")
 	)
 	(wire
 		(pts
@@ -1992,16 +2043,6 @@
 			(type default)
 		)
 		(uuid "50f05474-7128-483a-a174-e1b974513435")
-	)
-	(wire
-		(pts
-			(xy 115.57 55.88) (xy 121.92 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "537996de-f6ee-40e8-928e-1727fe6838ab")
 	)
 	(wire
 		(pts
@@ -2195,6 +2236,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 73.66) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d02eb2-5e82-422a-9a6d-cc16ccf0eb2e")
+	)
+	(wire
+		(pts
 			(xy 52.07 43.18) (xy 54.61 43.18)
 		)
 		(stroke
@@ -2202,6 +2253,16 @@
 			(type default)
 		)
 		(uuid "a42faed8-2cea-4fa8-ae30-709d06a1caf2")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 95.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a60fcb-bce0-4034-8d43-a8748631e996")
 	)
 	(wire
 		(pts
@@ -2215,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 48.26) (xy 97.79 48.26)
+			(xy 91.44 48.26) (xy 95.25 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2275,6 +2336,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 48.26) (xy 97.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ae6367-84de-4ea3-96f5-15749ccf38d3")
+	)
+	(wire
+		(pts
 			(xy 66.04 38.1) (xy 62.23 38.1)
 		)
 		(stroke
@@ -2295,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 76.2) (xy 121.92 76.2)
+			(xy 105.41 76.2) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2493,6 +2564,16 @@
 		)
 		(uuid "50c900b1-4d26-4e2e-90b7-ea18d46f7fcb")
 	)
+	(label "3.3V ?"
+		(at 30.48 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ebf0b3d-627b-423c-ae02-310352ad6ae3")
+	)
 	(label "PREVGL"
 		(at 66.04 38.1 0)
 		(effects
@@ -2533,6 +2614,16 @@
 		)
 		(uuid "cbd7d051-2d45-4f76-96ad-0ea9321515d2")
 	)
+	(label "3.3V ?"
+		(at 118.11 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce6e4bdf-4352-4104-bba5-688511c4b75c")
+	)
 	(label "RESE"
 		(at 113.03 43.18 0)
 		(effects
@@ -2544,7 +2635,7 @@
 		(uuid "deab7c32-30d1-4e42-a9d7-fa6fd2204932")
 	)
 	(label "BS"
-		(at 115.57 55.88 0)
+		(at 111.76 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
