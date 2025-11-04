@@ -2954,10 +2954,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7136b817-31cb-4821-adfe-c4e3e2eb62a8")
+			(uuid "ab47f5bf-40dd-4bab-8845-50a765669fa8")
 		)
 		(pin "2"
-			(uuid "21f41112-1d49-4006-82ae-c9471d490ac4")
+			(uuid "d28baf6e-c612-41be-8a94-5f7b06e4583b")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -3024,90 +3024,82 @@
 			)
 		)
 		(pin "13"
-			(uuid "d4145198-3d6d-400d-93db-45565eeee4c3")
+			(uuid "de500b3d-a3a2-47e5-9645-aec238558c5e")
 		)
 		(pin "8"
-			(uuid "9f283ac6-274a-4f82-8e5b-d3575f99c3d5")
+			(uuid "d54193b5-aa3d-43bf-a73c-d322c7fffa77")
 		)
 		(pin "11"
-			(uuid "513495e2-63f0-402c-b787-09fe121d210e")
+			(uuid "1a60fb07-fc39-48ea-80f4-ace746f0530b")
 		)
 		(pin "16"
-			(uuid "08e15841-8fb0-48f3-a526-03f9df80e29e")
+			(uuid "af80e008-b518-4149-a0d1-2e84146fe2e6")
 		)
 		(pin "22"
-			(uuid "c938b364-a1c3-4257-879f-8d10a5969b67")
+			(uuid "97b9be94-75d0-422c-87f0-cf9e90ac34fc")
 		)
 		(pin "4"
-			(uuid "2a565ceb-fe39-457a-876b-761bec922fb8")
+			(uuid "94590c10-72bf-433b-899a-08951e85018f")
 		)
 		(pin "5"
-			(uuid "40fbf44c-e1b4-4eda-b3c8-cf6afdf31c11")
+			(uuid "bdf72561-5214-492c-876c-f47a9a5b85d7")
 		)
 		(pin "1"
-			(uuid "252ac3c3-7e1d-4ae7-8510-75da763b99b2")
+			(uuid "4af6500d-66d8-4824-adb5-b2f240ca6d31")
 		)
 		(pin "6"
-			(uuid "3f531707-88e6-43fa-b823-637ce2ceba3d")
+			(uuid "5e039a56-6eff-49ba-9e58-979b321ed734")
 		)
 		(pin "3"
-			(uuid "6a85fe72-d6bb-4703-9a39-5e58fce7d13e")
+			(uuid "c2bff81a-2c82-4e3c-9a43-2ccfce676803")
 		)
 		(pin "9"
-			(uuid "546928be-be2a-46d9-ac7b-8f6162dee477")
+			(uuid "a684f60e-eeeb-41af-9b44-114e1422398b")
 		)
 		(pin "24"
-			(uuid "ef7b9b1b-c540-4007-8333-d513b3f7703c")
+			(uuid "7e1c24dd-3d44-45e0-85ed-2a876ae8cff8")
 		)
 		(pin "18"
-			(uuid "0015a0fc-b929-4b48-a7dc-6bdce1eb218f")
+			(uuid "25f85dab-33cb-4a5b-8434-716ae1dcda7b")
 		)
 		(pin "15"
-			(uuid "8c404c9c-2495-40aa-9d5b-55eed4cf8f67")
+			(uuid "45c58ac6-f8af-40b8-9b81-8a66f14e036a")
 		)
 		(pin "10"
-			(uuid "aca3d2a5-a18d-45e1-8df2-2ea939cc7ac8")
+			(uuid "4e859c58-ca49-4c75-a436-0c245f7e04d8")
 		)
 		(pin "2"
-			(uuid "6094c9c2-9311-4918-9d19-2bdc5d03ed44")
+			(uuid "7f2bf8f5-1473-4ee1-84f7-d62fcd6fbb08")
 		)
 		(pin "17"
-			(uuid "793f97b3-1f4b-489d-a090-60c2726f65d5")
+			(uuid "6f0df23c-d01d-46ba-a904-667c0840285e")
 		)
 		(pin "12"
-			(uuid "7d6e9dbe-3375-42d7-ae47-a0ed6024ac55")
+			(uuid "0dccb47f-61a1-4371-b103-d5353e8a8b92")
 		)
 		(pin "19"
-			(uuid "a305146d-3b7e-4a3f-b40e-c4c4bea54f66")
+			(uuid "870c5875-b7d7-4fea-a06a-a726d432f4c1")
 		)
 		(pin "23"
-			(uuid "a0f5428c-3a65-4eea-8dba-95b0ac1d62cc")
+			(uuid "cfecc075-07fc-42df-9c75-1ad0d57354e0")
 		)
 		(pin "21"
-			(uuid "589f8812-a535-4fd0-bdbf-2bf370d72351")
+			(uuid "b6d0f637-75db-4d6a-8991-caf5fd862ba3")
 		)
 		(pin "14"
-			(uuid "595a9286-3776-45e9-af38-5fc3fe50198a")
+			(uuid "81167135-c966-4739-8f37-818d9a9e2ce8")
 		)
 		(pin "20"
-			(uuid "fc70d4f3-44da-4dc3-98e1-ea6fd12bd1c1")
+			(uuid "777549c2-b2ac-45eb-833a-21ce4977f3e2")
 		)
 		(pin "7"
-			(uuid "109ee19d-8d0e-4a9a-960a-04f5d5d2054e")
+			(uuid "2a1caadb-24c8-43c4-92a7-048813e0326e")
 		)
 		(pin "25"
-			(uuid "75b0a7f9-4ba8-4676-a17e-d6890572b586")
+			(uuid "43e8870a-b2be-40a4-91ce-d7af04d3bda0")
 		)
 		(pin "26"
-			(uuid "ed819cd9-0776-4d55-a661-f8ec19ff8db4")
-		)
-		(instances
-			(project ""
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-					(reference "J3")
-					(unit 1)
-				)
-			)
+			(uuid "4db06527-81d6-41d6-b665-021cd3fe7918")
 		)
 	)
 	(symbol
@@ -3166,10 +3158,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bb149fd-5633-4eab-80a2-3b71fa36fba8")
+			(uuid "56314942-fc6c-4609-9ce8-475b5906a23e")
 		)
 		(pin "2"
-			(uuid "d7ea050d-0df6-490d-adc7-c6ff98795af0")
+			(uuid "06e3e607-b8d1-4d47-92cf-a4b887724b6c")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -3239,21 +3231,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a8f268d-dbc8-4f81-80cc-baa85ff5fca0")
+			(uuid "ce24c398-1c06-4f5d-98e6-9efbb52d8816")
 		)
 		(pin "1"
-			(uuid "88829e87-1123-45e4-a65e-c961fd88be78")
+			(uuid "c3a03a11-94ef-4a8c-8066-34e19366a29b")
 		)
 		(pin "3"
-			(uuid "95c22832-a2a8-4d9d-b493-0af3d6ffc241")
-		)
-		(instances
-			(project ""
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
+			(uuid "ce0b6f53-8634-4514-a96f-79097f0165f7")
 		)
 	)
 	(symbol
@@ -3310,18 +3294,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "afe0012c-c996-4a57-ba0b-6056da5d3240")
+			(uuid "335a7d0c-5bb5-4a49-ae03-8a727bcf817e")
 		)
 		(pin "2"
-			(uuid "011dbb5d-5d7f-4804-b441-7b643f812b9c")
-		)
-		(instances
-			(project ""
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-					(reference "D1")
-					(unit 1)
-				)
-			)
+			(uuid "d449d838-af13-4ec5-9423-5e9d1ec5812d")
 		)
 	)
 	(symbol
@@ -3377,10 +3353,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "14cacbb9-9227-4503-9c4f-31bd0032f74f")
+			(uuid "8a28cc1c-44cd-4455-a2ef-b37c2015f9e1")
 		)
 		(pin "2"
-			(uuid "01610de1-54db-408e-832a-1baadb980879")
+			(uuid "1debca49-08c7-4c4d-aa16-56011bc4645c")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -3444,10 +3420,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6f10663-e65e-4d3a-8cc6-98c4bc98962b")
+			(uuid "367d3b3a-6845-4648-89d3-1c0949ef5cf2")
 		)
 		(pin "2"
-			(uuid "e445fc44-324e-4e07-8053-f084ef01ad8e")
+			(uuid "a942059a-6283-4f98-aedd-faa4fbae6a4a")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -3514,18 +3490,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f67644b-21ec-44a4-ad86-18ec868f4c58")
+			(uuid "304ab3c8-41d8-4de1-a6dc-52a10fc1ef43")
 		)
 		(pin "2"
-			(uuid "c2b2c68e-341f-495e-a348-ddbdd5e61fe9")
-		)
-		(instances
-			(project ""
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-					(reference "R19")
-					(unit 1)
-				)
-			)
+			(uuid "ffbbd585-7455-4c92-9a20-5d196d66f3f9")
 		)
 	)
 	(symbol
@@ -3581,10 +3549,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f32b3c4a-6f7f-495a-97cb-0575df3d123f")
+			(uuid "f61b5932-39f1-449e-a0e8-8dbc359cc1ce")
 		)
 		(pin "2"
-			(uuid "99d7305a-93b2-4aea-bab6-1d472a55a3ce")
+			(uuid "4ba20ef0-2866-4e0b-9d33-706d11b400ba")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -3649,18 +3617,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8c679c9-3848-4d17-90a6-da891094ad7a")
+			(uuid "ecf9cd2a-d233-4497-b086-31d7a9f9acd7")
 		)
 		(pin "2"
-			(uuid "d22e2155-0cb3-43f3-b6b4-17bb3af20b6c")
-		)
-		(instances
-			(project ""
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-					(reference "C16")
-					(unit 1)
-				)
-			)
+			(uuid "d2dce7c6-0dc7-4011-bfbc-8445bfe73d56")
 		)
 	)
 	(symbol
@@ -3717,10 +3677,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2575d5c7-11eb-47da-9bf8-bb2d8ffb6d9a")
+			(uuid "bfcfeef4-d27d-473e-b13a-94a1c287a158")
 		)
 		(pin "2"
-			(uuid "3b8524cf-2428-4d80-b45f-27b58e36b9fc")
+			(uuid "4deda823-c67c-4d6c-81ef-3fbbdb063f4e")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -3785,10 +3745,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9427be65-a6e2-4acc-817d-927ba29a9ec1")
+			(uuid "d769f301-6126-4c59-a535-8bb0e05def34")
 		)
 		(pin "2"
-			(uuid "974b4e04-1a88-4312-85bd-cb365ce35e6c")
+			(uuid "d6522bba-ad49-43bb-9e98-80fed1030e8e")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -3852,10 +3812,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "954f56a0-0698-4c78-83f0-f4a17609cc57")
+			(uuid "8257124b-80d9-414f-be6c-a0004db5c593")
 		)
 		(pin "2"
-			(uuid "ad4aff47-81c6-47ef-8604-db9310e28925")
+			(uuid "94872122-dfd5-433f-aa33-6e4310f879e5")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -3921,18 +3881,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa921da7-4bba-4ddd-81b4-230b3b2ae17c")
+			(uuid "c2efc6d2-1f06-40c2-80e8-5e340ff73fe5")
 		)
 		(pin "1"
-			(uuid "d64be7a1-ad94-4736-ae7a-556c0a57215d")
-		)
-		(instances
-			(project ""
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-					(reference "C12")
-					(unit 1)
-				)
-			)
+			(uuid "d7dc0b1f-5106-4b2f-853c-989fc4e1655f")
 		)
 	)
 	(symbol
@@ -3990,10 +3942,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "135e4f57-4587-4a44-9415-2bf3b3bf11ea")
+			(uuid "3e0bf06f-20a7-4cfe-8428-9e2dcba887cb")
 		)
 		(pin "1"
-			(uuid "7f0e76ff-7d53-4f15-a885-640bce6bd4f4")
+			(uuid "2a02810f-542e-4499-a2fd-16b5847afa91")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -4060,10 +4012,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fcb1b55a-89bc-4d4f-9cc5-fa66376e030d")
+			(uuid "356683e5-2492-498a-8b14-19e01cfc3c15")
 		)
 		(pin "1"
-			(uuid "b63823a1-32e3-4336-9830-1a63b3fd8c51")
+			(uuid "177a20d7-0287-4d36-9548-9747057c0635")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
@@ -4127,18 +4079,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ebb26096-9045-4cfb-a5a0-15bfb39d49fc")
+			(uuid "99200ec2-873e-44d0-ae30-25e6049c5bbf")
 		)
 		(pin "2"
-			(uuid "d4a7b7c3-017a-4ac0-a6b5-18f44df23ffc")
-		)
-		(instances
-			(project ""
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-					(reference "L2")
-					(unit 1)
-				)
-			)
+			(uuid "0f88aae2-a15a-441b-a1bd-fa752e3f6f83")
 		)
 	)
 	(symbol
@@ -4194,10 +4138,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "53c79ae4-a2fc-42fd-9bd1-501acd6409e0")
+			(uuid "29538173-68f6-4f5b-a130-a3fdf6609e95")
 		)
 		(pin "2"
-			(uuid "e1b93d2f-3cbf-42c8-892f-bb7d97e7c764")
+			(uuid "7190aee5-1a22-44d2-a765-1777804d2180")
 		)
 		(instances
 			(project "OSHE-Reader-PCB"
