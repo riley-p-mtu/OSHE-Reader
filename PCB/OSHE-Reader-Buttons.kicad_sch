@@ -611,7 +611,7 @@
 		(uuid "f851c57d-67e0-468b-824f-17b5eb740694")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape input)
 		(at 140.97 64.77 270)
 		(effects
 			(font
@@ -622,7 +622,7 @@
 		(uuid "11d937b2-268e-446a-900a-47ffef5e5031")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape input)
 		(at 66.04 93.98 270)
 		(effects
 			(font
@@ -632,7 +632,7 @@
 		)
 		(uuid "3ce09732-9cd8-40ff-aba8-700c1c6b70ba")
 	)
-	(hierarchical_label "buttonUpRight"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 116.84 38.1 180)
 		(effects
@@ -643,7 +643,7 @@
 		)
 		(uuid "3f6eedbe-17cb-41f0-8f08-7b9fd633ba9e")
 	)
-	(hierarchical_label "DownScreenbutton"
+	(hierarchical_label "DownButton"
 		(shape output)
 		(at 69.85 73.66 0)
 		(effects
@@ -665,7 +665,7 @@
 		)
 		(uuid "52dbdf98-9b91-4282-ba19-1c79498fbecd")
 	)
-	(hierarchical_label "UpScreenbutton"
+	(hierarchical_label "LeftButton"
 		(shape output)
 		(at 153.67 49.53 0)
 		(effects
@@ -676,7 +676,7 @@
 		)
 		(uuid "6f8d9252-8002-41e7-94b2-ea02800c1232")
 	)
-	(hierarchical_label "buttonUpLeft"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 40.64 36.83 180)
 		(effects
@@ -687,7 +687,7 @@
 		)
 		(uuid "869a1373-cf54-4df1-b8eb-4754b6058f8e")
 	)
-	(hierarchical_label "UpScreenbutton"
+	(hierarchical_label "UpButton"
 		(shape output)
 		(at 73.66 46.99 0)
 		(effects
@@ -698,7 +698,7 @@
 		)
 		(uuid "8cde805e-6f5b-4f4c-9295-b99563d4c7dc")
 	)
-	(hierarchical_label "buttonDownRight"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 116.84 63.5 180)
 		(effects
@@ -709,7 +709,7 @@
 		)
 		(uuid "a847fd9f-58ac-4f46-bb21-eae51e59ae19")
 	)
-	(hierarchical_label "buttonDownLeft"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 40.64 62.23 180)
 		(effects
@@ -721,7 +721,7 @@
 		(uuid "c1a46c6f-9cd6-47a7-a019-75dc2510493f")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape input)
 		(at 113.03 113.03 270)
 		(effects
 			(font
@@ -731,7 +731,7 @@
 		)
 		(uuid "dfd1d0db-76da-4cca-b972-7168fda8f95a")
 	)
-	(hierarchical_label "DownScreenbutton"
+	(hierarchical_label "RightButton"
 		(shape output)
 		(at 144.78 73.66 0)
 		(effects
@@ -743,7 +743,7 @@
 		(uuid "e8334e3e-ad6f-4cc7-8f8a-af16c3bd4aa8")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape input)
 		(at 66.04 58.42 270)
 		(effects
 			(font
@@ -753,7 +753,7 @@
 		)
 		(uuid "e9712557-54e8-4bd2-acde-8d17b939192c")
 	)
-	(hierarchical_label "centerButton"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 93.98 81.28 180)
 		(effects
@@ -765,7 +765,7 @@
 		(uuid "eaeb3e48-4323-434a-b769-e93f46d68cbc")
 	)
 	(hierarchical_label "GND"
-		(shape output)
+		(shape input)
 		(at 139.7 93.98 270)
 		(effects
 			(font
