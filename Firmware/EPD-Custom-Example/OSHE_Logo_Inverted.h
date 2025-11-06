@@ -1,0 +1,1 @@
+extern uint8_t OSHE_Logo_Inverted_Bitmap[EPD_5IN83_V2_WIDTH * EPD_5IN83_V2_HEIGHT / 8];
