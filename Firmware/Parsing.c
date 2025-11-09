@@ -9,6 +9,16 @@
 // Trying to use comments to give context, but definitely read the
 // README.md in the firmware folder to access the documentation
 
+void *read_epub_file(mz_zip_archive *zip, const char *path, size_t *out_size) {
+    void *p = mz_zip_reader_extract_file_to_heap(zip, path, out_size, 0);
+    if (!p) {
+		printf("Failed to extract %s\n", targetFile);
+        mz_zip_reader_end(&zipArchive);
+        return NULL;
+	}
+	return p;
+}
+
 // Called when Expat XML parser sees a start tag
 void startElement(void *userData, const char *name, const char **atts) {
 	// Just checking for title
@@ -28,7 +38,6 @@ void startElement(void *userData, const char *name, const char **atts) {
 void charData(void *userData, const char *s, int len) {
 	printf("Text: %.*s\n", len, s);
 }
-
 
 // Currently all this program does is print text from between the <tags> 
 // in the content.opf file. Once this is reliable, we can go about finding actual
@@ -51,13 +60,9 @@ int main() {
 
 	// Try to extract content to heap memory
 	p = mz_zip_reader_extract_file_to_heap(&zipArchive, targetFile, &uncompSize, 0);
-	
-	// Fail if it can't find file
-	if (!p) {
-        printf("Failed to extract %s\n", targetFile);
-        mz_zip_reader_end(&zipArchive);
-        return 1;
-	}
+
+	size_t opf_size;
+	void *opf_data = read_epub_file(&zip, targetFile, *opf_size);
 	
 	XML_Parser parser = XML_ParserCreate(NULL);			// Create new parser
 	XML_SetElementHandler(parser, startElement, NULL);	// Handler for calling a function when start tag is detected
