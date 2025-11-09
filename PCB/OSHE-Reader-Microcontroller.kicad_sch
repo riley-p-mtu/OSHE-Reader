@@ -742,6 +742,28 @@
 		)
 		(uuid "0ddb4e27-b7a8-4b00-940b-df9274fd5e7e")
 	)
+	(hierarchical_label "COPI"
+		(shape output)
+		(at 130.81 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1043aa50-6ccb-4be2-957b-c468d6a575fe")
+	)
+	(hierarchical_label "CIPO"
+		(shape input)
+		(at 130.81 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "210a7e86-0340-4957-8d04-1403d6d644d2")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 60.96 49.53 180)
@@ -752,6 +774,17 @@
 			(justify right)
 		)
 		(uuid "2c2cff74-ab4b-4c1b-8518-14aa72f1c5e0")
+	)
+	(hierarchical_label "D{slash}C"
+		(shape output)
+		(at 130.81 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b8a35e7-c609-47d4-ae1d-976a4b2e4bda")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -764,6 +797,17 @@
 		)
 		(uuid "4ccdc5be-b4c4-41f8-9baf-3dd487e26401")
 	)
+	(hierarchical_label "EP_CS"
+		(shape output)
+		(at 130.81 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cdfaf11-f6e1-43cc-ba0a-74ddce072501")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 106.68 85.09 0)
@@ -775,6 +819,17 @@
 		)
 		(uuid "656337a6-9e7d-4c05-945b-62ec2c48d5a0")
 	)
+	(hierarchical_label "SD_CS"
+		(shape output)
+		(at 130.81 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a128fa78-22a3-4ccc-b38b-1c4881d8f0a4")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 106.68 49.53 0)
@@ -785,6 +840,17 @@
 			(justify left)
 		)
 		(uuid "b106ae15-6f60-4d04-a0c0-8bad414b9d41")
+	)
+	(hierarchical_label "SCK"
+		(shape output)
+		(at 130.81 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0a172b5-d86d-4c85-accb-ac599fac9b8c")
 	)
 	(symbol
 		(lib_id "ESP32-C6-DEV-KIT-N8:ESP32-C6-DEV-KIT-N8")
