@@ -2,11 +2,22 @@
 #include "SD.h"
 #include "SPI.h"
 
-const int upBut = 5;
-const int downBut = 6;
-const int rightBut = 7;
-const int leftBut = 0;
-const int hBut = 1;
+// Button input, writing to SD card directory
+
+// Number for button pins
+const int upBtn = 5;
+const int downBtn = 6;
+const int rightBtn = 7; 
+const int leftBtn = 8;
+const int homeBtn = 10;
+
+// Variables for reading pushbutton status
+int upBtnState = 0;
+int downBtnState = 0;
+int rightBtnState = 0;
+int leftBtnState = 0;
+int homeBtnState = 0;
+
 //Uncomment and set up if you want to use custom pins for the SPI communication
 #define REASSIGN_PINS
 int sck = 21;
@@ -46,6 +57,16 @@ void listDir(fs::FS &fs, const char *dirname, uint8_t levels) {
   }
 }
 
+
+void createDir(fs::FS &fs, const char *path) {
+  Serial.printf("Creating Dir: %s\n", path);
+  if (fs.mkdir(path)) {
+    Serial.println("Dir created");
+  } else {
+    Serial.println("mkdir failed");
+  }
+}
+
 void readFile(fs::FS &fs, const char *path) {
   Serial.printf("Reading file: %s\n", path);
 
@@ -74,6 +95,22 @@ void writeFile(fs::FS &fs, const char *path, const char *message) {
     Serial.println("File written");
   } else {
     Serial.println("Write failed");
+  }
+  file.close();
+}
+
+void appendFile(fs::FS &fs, const char *path, const char *message) {
+  Serial.printf("Appending to file: %s\n", path);
+
+  File file = fs.open(path, FILE_APPEND);
+  if (!file) {
+    Serial.println("Failed to open file for appending");
+    return;
+  }
+  if (file.print(message)) {
+    Serial.println("Message appended");
+  } else {
+    Serial.println("Append failed");
   }
   file.close();
 }
@@ -113,16 +150,57 @@ void setup() {
     return;
   }
 
+  Serial.printf("Test?\n");
+
+  // Initialize button pins as input
+  pinMode(upBtn, INPUT);
+  pinMode(downBtn, INPUT);
+  pinMode(rightBtn, INPUT);
+  pinMode(leftBtn, INPUT);
+  pinMode(homeBtn, INPUT);
+
   listDir(SD, "/", 0);
-  writeFile(SD, "/hello.txt", "Hello World\n");
-  readFile(SD, "/hello.txt");
+  createDir(SD, "/inputDir");
+  writeFile(SD, "/inputDir/InputTest.txt", "Input Test:\n");
   listDir(SD, "/", 0);
-  renameFile(SD, "/hello.txt", "/foo.txt");
-  deleteFile(SD, "/foo.txt");
-  listDir(SD, "/", 0);
+  readFile(SD, "/inputDir/InputTest.txt");
+
+  // listDir(SD, "/", 0);
+  // writeFile(SD, "/hello.txt", "Hello World\n");
+  // readFile(SD, "/hello.txt");
+  // listDir(SD, "/", 0);
+  // renameFile(SD, "/hello.txt", "/foo.txt");
+  // deleteFile(SD, "/foo.txt");
+  // listDir(SD, "/", 0);
+
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+  upBtnState = digitalRead(upBtn);
+  downBtnState = digitalRead(downBtn);
+  rightBtnState = digitalRead(rightBtn);
+  leftBtnState = digitalRead(leftBtn);
+  homeBtnState = digitalRead(homeBtn);
   
+  if (upBtnState == HIGH) {
+    appendFile(SD, "/inputDir/InputTest.txt", "Up\n");
+  }
+
+  if (downBtnState == HIGH) {
+    appendFile(SD, "/inputDir/InputTest.txt", "Down\n");
+  }
+
+  if (rightBtnState == HIGH) {
+    appendFile(SD, "/inputDir/InputTest.txt", "Right\n");
+  }
+
+  if (leftBtnState == HIGH) {
+    appendFile(SD, "/inputDir/InputTest.txt", "Left\n");
+  }
+
+  if (homeBtnState == HIGH) {
+    appendFile(SD, "/inputDir/InputTest.txt", "Home\n");
+    readFile(SD, "/inputDir/InputTest.txt");
+  }
 }
