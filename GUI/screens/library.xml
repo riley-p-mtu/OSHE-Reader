@@ -1,0 +1,331 @@
+<screen>
+	<view width="480" height="648" style_bg_color="#white" style_pad_all="0" scrollable="false">
+		<!-- Title -->
+		<lv_label
+			text="Your Library"
+			x="0"
+			y="16"
+			width="480"
+			height="60"
+			align="top_mid"
+			style_text_color="#black"
+			style_text_align="center"
+			style_text_font="title"
+		/>
+
+		<!-- Divider -->
+		<lv_obj x="0" y="107" width="480" height="1" style_bg_color="#black" style_border_width="0" />
+
+		<!-- Sort Buttons -->
+		<lv_obj
+			name="sort_date"
+			x="0"
+			y="108"
+			width="150"
+			height="40"
+			style_bg_color="#white"
+			style_border_width="1"
+			style_border_color="#gray"
+			style_radius="3"
+			scrollable="false"
+		>
+			<lv_label
+				text="Date Added"
+				x="30"
+				y="12"
+				width="150"
+				height="40"
+				align="center"
+				style_text_color="#bl"
+				style_text_font="settings_button"
+			/>
+		</lv_obj>
+
+		<!-- Divider -->
+		<lv_obj x="150" y="107" width="1" height="42" style_bg_color="#black" style_border_width="0" />
+
+		<lv_obj
+			name="sort_author"
+			x="164"
+			y="108"
+			width="152"
+			height="40"
+			style_bg_color="#white"
+			style_border_width="1"
+			style_border_color="#white"
+			style_radius="3"
+			scrollable="false"
+		>
+			<lv_label
+				text="Author"
+				x="50"
+				y="12"
+				width="152"
+				height="40"
+				align="center"
+				style_text_color="#black"
+				style_text_font="settings_button"
+			/>
+		</lv_obj>
+
+		<!-- Divider -->
+		<lv_obj x="300" y="107" width="1" height="42" style_bg_color="#black" style_border_width="0" />
+
+		<lv_obj
+			name="sort_name"
+			x="326"
+			y="108"
+			width="146"
+			height="40"
+			style_bg_color="#white"
+			style_border_width="1"
+			style_border_color="#white"
+			style_radius="3"
+			scrollable="false"
+		>
+			<lv_label
+				text="Name"
+				x="50"
+				y="12"
+				width="146"
+				height="40"
+				align="center"
+				style_text_color="#black"
+				style_text_font="settings_button"
+			/>
+		</lv_obj>
+
+		<!-- Divider -->
+		<lv_obj x="0" y="148" width="480" height="1" style_bg_color="#black" style_border_width="0" />
+
+		<!-- Book entries -->
+		<lv_obj
+			name="book1"
+			x="20"
+			y="170"
+			width="440"
+			height="64"
+			style_bg_color="#white"
+			style_border_width="2"
+			style_border_color="#gray"
+			style_radius="3"
+			scrollable="false"
+		>
+			<lv_label
+				text="Lorem Ipsum"
+				x="-2"
+				y="-4"
+				width="420"
+				height="29"
+				align="top_left"
+				style_text_color="#black"
+				style_text_font="font_medium_t"
+			/>
+			<lv_label
+				text="author"
+				x="-2"
+				y="24"
+				width="420"
+				height="20"
+				align="top_left"
+				style_text_color="#gray"
+				style_text_font="font_small_t"
+			/>
+		</lv_obj>
+
+		<lv_obj
+			name="book2"
+			x="20"
+			y="244"
+			width="440"
+			height="64"
+			style_bg_color="#white"
+			style_border_width="2"
+			style_border_color="#gray"
+			style_radius="3"
+			scrollable="false"
+		>
+			<lv_label
+				text="Frankenstein"
+				x="-2"
+				y="-4"
+				width="420"
+				height="29"
+				align="top_left"
+				style_text_color="#black"
+				style_text_font="font_medium_t"
+			/>
+			<lv_label
+				text="Mary Shelley"
+				x="-2"
+				y="24"
+				width="420"
+				height="20"
+				align="top_left"
+				style_text_color="#gray"
+				style_text_font="font_small_t"
+			/>
+		</lv_obj>
+
+		<lv_obj
+			name="book3"
+			x="20"
+			y="318"
+			width="440"
+			height="64"
+			style_bg_color="#white"
+			style_border_width="2"
+			style_border_color="#gray"
+			style_radius="3"
+			scrollable="false"
+		>
+			<lv_label
+				text="Pride and Prejudice"
+				x="-2"
+				y="-4"
+				width="420"
+				height="29"
+				align="top_left"
+				style_text_color="#black"
+				style_text_font="font_medium_t"
+			/>
+			<lv_label
+				text="Jane Austen"
+				x="-2"
+				y="24"
+				width="420"
+				height="20"
+				align="top_left"
+				style_text_color="#gray"
+				style_text_font="font_small_t"
+			/>
+		</lv_obj>
+
+		<lv_obj
+			name="book4"
+			x="20"
+			y="392"
+			width="440"
+			height="64"
+			style_bg_color="#white"
+			style_border_width="2"
+			style_border_color="#gray"
+			style_radius="3"
+			scrollable="false"
+		>
+			<lv_label
+				text="Moby Dick"
+				x="-2"
+				y="-4"
+				width="420"
+				height="29"
+				align="top_left"
+				style_text_color="#black"
+				style_text_font="font_medium_t"
+			/>
+			<lv_label
+				text="Herman Melville"
+				x="-2"
+				y="24"
+				width="420"
+				height="20"
+				align="top_left"
+				style_text_color="#gray"
+				style_text_font="font_small_t"
+			/>
+		</lv_obj>
+
+		<lv_obj
+			name="book5"
+			x="20"
+			y="466"
+			width="440"
+			height="64"
+			style_bg_color="#white"
+			style_border_width="2"
+			style_border_color="#gray"
+			style_radius="3"
+			scrollable="false"
+		>
+			<lv_label
+				text="Treasure Island"
+				x="-2"
+				y="-4"
+				width="420"
+				height="29"
+				align="top_left"
+				style_text_color="#black"
+				style_text_font="font_medium_t"
+			/>
+			<lv_label
+				text="Robert Louis Stevenson"
+				x="-2"
+				y="24"
+				width="420"
+				height="20"
+				align="top_left"
+				style_text_color="#gray"
+				style_text_font="font_small_t"
+			/>
+		</lv_obj>
+
+		<!-- Bottom navigation (technically not needed)-->
+		<lv_obj
+			name="prev_page"
+			x="92"
+			y="560"
+			width="40"
+			height="40"
+			style_bg_color="#white"
+			style_border_width="0"
+			scrollable="false"
+		>
+			<lv_label
+				text="&lt;"
+				x="15"
+				y="10"
+				width="40"
+				height="40"
+				align="center"
+				style_text_color="#black"
+				style_text_font="settings_button"
+			/>
+		</lv_obj>
+
+		<lv_label
+			name="page_label"
+			text="1/2"
+			x="220"
+			y="560"
+			width="40"
+			height="40"
+			align="center"
+			style_text_color="#black"
+			style_text_font="settings_button"
+		/>
+
+		<lv_obj
+			name="next_page"
+			x="348"
+			y="560"
+			width="40"
+			height="40"
+			style_bg_color="#white"
+			style_border_width="0"
+			scrollable="false"
+		>
+			<lv_label
+				text="&gt;"
+				x="15"
+				y="10"
+				width="40"
+				height="40"
+				align="center"
+				style_text_color="#black"
+				style_text_font="settings_button"
+			/>
+		</lv_obj>
+
+		<lv_image src="full_battery_icon" width="50" height="50" x="420" y="595" scale_x="25" scale_y="25" />
+	</view>
+</screen>

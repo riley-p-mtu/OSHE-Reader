@@ -1,24 +1,28 @@
 <screen permanent="true">
 	<styles>
 		<style name="style_main" bg_color="#white" />
+		<style name="style_button" bg_color="#gray" />
 	</styles>
 
 	<view>
 		<style name="style_main" />
 		<lv_label text="Welcome Home" y="-200" align="center" style_text_align="center" style_text_font="title" />
-		<lv_button width="420" height="100" style_radius="12" y="-40" align="center" style_bg_color="#5F8575">
-			<lv_label text="Library" style_text_font="medium" align="center" />
+
+		<lv_button width="420" height="100" style_radius="12" y="-40" align="center" style_bg_color="#gray">
+			<lv_label text="Library" style_text_font="medium" align="center" style_text_color="#white" />
 			<screen_load_event screen="library" />
 		</lv_button>
 
-		<lv_button width="420" height="100" style_radius="12" y="80" align="center" style_bg_color="#5F8575">
-			<lv_label text="Last Book Read" style_text_font="medium" align="center" />
+		<lv_button width="420" height="100" style_radius="12" y="80" align="center" style_bg_color="#gray">
+			<lv_label text="Last Book Read" style_text_font="medium" align="center" style_text_color="#white" />
 			<screen_load_event screen="book" />
 		</lv_button>
 
-		<lv_button width="420" height="100" style_radius="12" y="200" align="center" style_bg_color="#5F8575">
-			<lv_label text="Settings" style_text_font="medium" align="center" />
+		<lv_button width="420" height="100" style_radius="12" y="200" align="center" style_bg_color="#gray">
+			<lv_label text="Settings" style_text_font="medium" align="center" style_text_color="#white" />
 			<screen_load_event screen="settings" />
 		</lv_button>
+
+		<lv_image src="full_battery_icon" width="50" height="50" x="420" y="595" scale_x="25" scale_y="25" />
 	</view>
 </screen>

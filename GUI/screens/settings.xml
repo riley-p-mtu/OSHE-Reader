@@ -1,10 +1,251 @@
-<screen permanent="true">
-	<styles>
-		<style name="style_main" bg_color="#white" />
-	</styles>
+<screen>
+	<view width="480" height="648" style_bg_color="#white" style_pad_all="0">
+		<!-- Title -->
+		<lv_label
+			text="Settings"
+			x="0"
+			y="40"
+			width="480"
+			height="52"
+			align="top_mid"
+			style_text_color="#black"
+			style_text_align="center"
+			style_text_font="title"
+		/>
 
-	<view>
-		<style name="style_main" />
-		<lv_label text="Settings" y="-200" align="center" style_text_align="center" style_text_font="title" />
+		<!-- Divider -->
+		<lv_obj x="0" y="110" width="480" height="1" style_bg_color="#black" style_border_width="0" />
+
+		<!-- Brightness Settings -->
+		<lv_obj x="0" y="125" width="480" height="60" style_bg_color="#white" style_border_width="0" style_pad_all="0">
+			<lv_label
+				text="Brightness"
+				x="15"
+				y="-3"
+				width="125"
+				height="30"
+				align="left_mid"
+				style_text_color="#black"
+				style_text_font="settings_button_label"
+			/>
+		</lv_obj>
+
+		<!-- Divider -->
+		<lv_obj x="0" y="190" width="480" height="1" style_bg_color="#black" style_border_width="0" />
+
+		<!-- Text Size Setting -->
+		<lv_obj x="0" y="205" width="480" height="80" style_bg_color="#white" style_border_width="0" style_pad_all="0">
+			<lv_label
+				text="Text Size"
+				x="15"
+				y="10"
+				width="100"
+				height="60"
+				align="left_mid"
+				style_text_color="#black"
+				style_text_font="settings_button_label"
+			/>
+
+			<lv_obj
+				name="btn_text_small"
+				x="220"
+				y="20"
+				width="40"
+				height="40"
+				style_bg_color="#white"
+				style_border_width="0"
+				style_radius="3"
+				scrollable="false"
+			>
+				<lv_label
+					text="T"
+					x="0"
+					y="0"
+					width="40"
+					height="12"
+					align="center"
+					style_text_color="#black"
+					style_text_font="font_small_t"
+				/>
+			</lv_obj>
+
+			<lv_obj
+				name="btn_text_medium"
+				x="275"
+				y="15"
+				width="50"
+				height="50"
+				style_bg_color="#white"
+				style_border_width="0"
+				style_radius="3"
+				scrollable="false"
+			>
+				<lv_label
+					text="T"
+					x="0"
+					y="0"
+					width="50"
+					height="20"
+					align="center"
+					style_text_color="#black"
+					style_text_font="font_medium_t"
+				/>
+			</lv_obj>
+
+			<lv_obj
+				name="btn_text_large"
+				x="340"
+				y="20"
+				width="40"
+				height="40"
+				style_bg_color="#gray"
+				style_border_width="0"
+				style_radius="3"
+				scrollable="false"
+			>
+				<lv_label
+					text="T"
+					x="11"
+					y="-4"
+					width="40"
+					height="26"
+					align="center"
+					style_text_color="#white"
+					style_text_font="font_big_t"
+				/>
+			</lv_obj>
+		</lv_obj>
+
+		<!-- Divider -->
+		<lv_obj x="0" y="290" width="480" height="1" style_bg_color="#black" style_border_width="0" />
+
+		<!-- Dark Mode Setting -->
+		<lv_obj x="0" y="305" width="480" height="60" style_bg_color="#white" style_border_width="0" style_pad_all="0">
+			<lv_label
+				text="Dark Mode"
+				x="15"
+				y="0"
+				width="100"
+				height="60"
+				align="left_mid"
+				style_text_color="#black"
+				style_text_font="settings_button_label"
+			/>
+
+			<lv_obj
+				name="btn_dark_on"
+				x="240"
+				y="12"
+				width="55"
+				height="36"
+				style_bg_color="#white"
+				style_border_width="0"
+				style_radius="3"
+				scrollable="false"
+			>
+				<lv_label text="ON" align="center" style_text_color="#black" style_text_font="font_medium_t" />
+			</lv_obj>
+
+			<lv_obj
+				name="btn_dark_off"
+				x="305"
+				y="12"
+				width="55"
+				height="36"
+				style_bg_color="#gray"
+				style_border_width="0"
+				style_radius="3"
+				scrollable="false"
+			>
+				<lv_label text="OFF" align="center" style_text_color="#white" style_text_font="font_medium_t" />
+			</lv_obj>
+		</lv_obj>
+
+		<!-- Divider -->
+		<lv_obj x="0" y="370" width="480" height="1" style_bg_color="#black" style_border_width="0" />
+
+		<!-- Font Setting -->
+		<lv_obj
+			x="0"
+			y="385"
+			width="480"
+			height="60"
+			style_bg_color="#white"
+			style_border_width="0"
+			style_pad_all="0"
+			scrollable="false"
+		>
+			<lv_label
+				text="Font"
+				x="15"
+				y="10"
+				width="100"
+				height="60"
+				align="left_mid"
+				style_text_color="#black"
+				style_text_font="settings_button_label"
+			/>
+
+			<lv_obj
+				name="btn_font_prev"
+				x="210"
+				y="10"
+				width="40"
+				height="40"
+				style_bg_color="#white"
+				style_border_width="0"
+				style_radius="3"
+				scrollable="false"
+				style_text_font="font_medium_t"
+			>
+				<lv_label text="&lt;" align="center" style_text_color="#black" />
+			</lv_obj>
+
+			<lv_label
+				name="lbl_font_name"
+				text="Serif"
+				x="70"
+				y="15"
+				width="80"
+				height="60"
+				align="center"
+				style_text_color="#black"
+				scrollable="false"
+				style_text_font="font_medium_t"
+			/>
+
+			<lv_obj
+				name="btn_font_next"
+				x="350"
+				y="10"
+				width="40"
+				height="40"
+				style_bg_color="#white"
+				style_border_width="0"
+				style_radius="3"
+				scrollable="false"
+				style_text_font="font_medium_t"
+			>
+				<lv_label text="&gt;" align="center" style_text_color="#black" />
+			</lv_obj>
+		</lv_obj>
+
+		<!-- Divider -->
+		<lv_obj x="0" y="450" width="480" height="1" style_bg_color="#black" style_border_width="0" />
+
+		<!-- Battery Status Label -->
+		<lv_label
+			name="battery_status"
+			text="Full"
+			x="0"
+			y="600"
+			width="80"
+			height="50"
+			align="center"
+			style_text_color="#gray"
+			style_text_font="settings_button"
+		/>
+
+		<lv_image src="full_battery_icon" width="50" height="50" x="420" y="595" scale_x="25" scale_y="25" />
 	</view>
 </screen>
