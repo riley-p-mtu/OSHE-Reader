@@ -8,7 +8,7 @@
 const int upBtn = 5;
 const int downBtn = 6;
 const int rightBtn = 7; 
-const int leftBtn = 8;
+const int leftBtn = 4;
 const int homeBtn = 10;
 
 // Variables for reading pushbutton status
@@ -17,6 +17,7 @@ int downBtnState = 0;
 int rightBtnState = 0;
 int leftBtnState = 0;
 int homeBtnState = 0;
+
 
 //Uncomment and set up if you want to use custom pins for the SPI communication
 #define REASSIGN_PINS
@@ -149,6 +150,8 @@ void setup() {
     Serial.println("Card Mount Failed");
     return;
   }
+
+  delay(5000);
 
   Serial.printf("Test?\n");
 
