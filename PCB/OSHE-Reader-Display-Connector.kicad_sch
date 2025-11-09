@@ -2930,13 +2930,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123c1bd0-a0a8-4008-a891-47dca81544e0")
-<<<<<<< HEAD
-		(property "Reference" "J?"
-			(at 139.7 66.3955 0)
-=======
 		(property "Reference" "J3"
 			(at 158.75 57.5055 0)
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,11 +3056,7 @@
 		(instances
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-<<<<<<< HEAD
-					(reference "J?")
-=======
 					(reference "J3")
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 					(unit 1)
 				)
 			)
@@ -3151,11 +3142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2258ff2a-0c0e-4bc7-9e90-29b26e3f4506")
-<<<<<<< HEAD
-		(property "Reference" "Q?"
-=======
 		(property "Reference" "Q2"
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 			(at 52.07 64.7699 0)
 			(effects
 				(font
@@ -3215,11 +3202,7 @@
 		(instances
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-<<<<<<< HEAD
-					(reference "Q?")
-=======
 					(reference "Q2")
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 					(unit 1)
 				)
 			)
@@ -3235,7 +3218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dc80f72-cee8-47e5-af07-b591965eaa55")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 58.1025 31.75 0)
 			(effects
 				(font
@@ -3287,11 +3270,7 @@
 		(instances
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-<<<<<<< HEAD
-					(reference "D?")
-=======
 					(reference "D1")
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 					(unit 1)
 				)
 			)
@@ -3441,7 +3420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "455ed79b-a009-4cff-805b-7ff177d2ea10")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 50.8 77.4699 0)
 			(effects
 				(font
@@ -3495,11 +3474,7 @@
 		(instances
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-<<<<<<< HEAD
-					(reference "R?")
-=======
 					(reference "R19")
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 					(unit 1)
 				)
 			)
@@ -3582,13 +3557,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53cfd45b-6678-458b-b785-eb98fb57485d")
-<<<<<<< HEAD
-		(property "Reference" "C?"
-			(at 101.6 40.64 90)
-=======
 		(property "Reference" "C17"
 			(at 120.65 31.75 90)
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,11 +3609,7 @@
 		(instances
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-<<<<<<< HEAD
-					(reference "C?")
-=======
 					(reference "C17")
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 					(unit 1)
 				)
 			)
@@ -3861,11 +3827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9af1da37-604a-4647-bdc0-bcd13895b481")
-<<<<<<< HEAD
-		(property "Reference" "C?"
-=======
 		(property "Reference" "C16"
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 			(at 52.07 52.0699 0)
 			(effects
 				(font
@@ -3919,11 +3881,7 @@
 		(instances
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-<<<<<<< HEAD
-					(reference "C?")
-=======
 					(reference "C16")
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 					(unit 1)
 				)
 			)
@@ -4077,13 +4035,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb85e2c4-0931-4374-8e92-516f633d182f")
-<<<<<<< HEAD
-		(property "Reference" "L?"
-			(at 39.37 54.61 90)
-=======
 		(property "Reference" "L2"
 			(at 38.1 54.61 90)
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,11 +4087,7 @@
 		(instances
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
-<<<<<<< HEAD
-					(reference "L?")
-=======
 					(reference "L2")
->>>>>>> d2c8e55 (HOPEFULLY GOOD FOR EVER (good for first semester) :))
 					(unit 1)
 				)
 			)
