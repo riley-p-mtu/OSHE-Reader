@@ -10,17 +10,17 @@
 
 		<lv_button width="420" height="100" style_radius="12" y="-40" align="center" style_bg_color="#gray">
 			<lv_label text="Library" style_text_font="medium" align="center" style_text_color="#white" />
-			<screen_load_event screen="library" />
+			<screen_create_event screen="library" />
 		</lv_button>
 
 		<lv_button width="420" height="100" style_radius="12" y="80" align="center" style_bg_color="#gray">
 			<lv_label text="Last Book Read" style_text_font="medium" align="center" style_text_color="#white" />
-			<screen_load_event screen="book" />
+			<screen_create_event screen="book" />
 		</lv_button>
 
 		<lv_button width="420" height="100" style_radius="12" y="200" align="center" style_bg_color="#gray">
 			<lv_label text="Settings" style_text_font="medium" align="center" style_text_color="#white" />
-			<screen_load_event screen="settings" />
+			<screen_create_event screen="settings" />
 		</lv_button>
 
 		<lv_image src="full_battery_icon" width="50" height="50" x="420" y="595" scale_x="25" scale_y="25" />
