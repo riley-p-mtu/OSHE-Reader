@@ -44,7 +44,7 @@ void start_container(void *user_data, const char *name, const char **atts) {
     }
 }
 
-// Looks for path to 
+// Looks for path to container
 char *find_opf_path(const char *xml, size_t len) {
     XML_Parser parser = XML_ParserCreate(NULL);
     container_data_t data = {0};
@@ -81,6 +81,7 @@ void start_opf(void *user_data, const char *name, const char **atts) {
     }
 }
 
+// Parse content.opf
 void parse_opf(const char *xml, size_t len, opf_data_t *opf) {
     XML_Parser parser = XML_ParserCreate(NULL);
     XML_SetUserData(parser, opf);
@@ -141,13 +142,13 @@ void char_data_xhtml(void *user_data, const char *s, int len) {
 
     if (strcmp(current_tag, "h1") == 0 || strcmp(current_tag, "h2") == 0) {
         // Look for chapter heading
-        if (!chapter_found && looks_like_chapter_heading(text)) {
+        if (!chapter_found && chapter_heading(text)) {
             chapter_found = 1;
             in_chapter = 1;
             printf("=== %s ===\n", text);
             return;
         }
-        else if (chapter_found && looks_like_chapter_heading(text)) {
+        else if (chapter_found && chapter_heading(text)) {
             // Next chapter reached
             stop_after_chapter = 1;
             return;
@@ -183,16 +184,16 @@ int main() {
     if (!container_xml) {
 		return 1;
 	}
-
+	
     char *opf_path = find_opf_path(container_xml, container_size);
     mz_free(container_xml);
     printf("Found OPF path: %s\n", opf_path);
 
-    // Step 2: content.opf
+    // Extract content.opf
     size_t opf_size;
     void *opf_xml = read_epub_file(&zip, opf_path, &opf_size);
     if (!opf_xml) {
-		return 1
+		return 1;
 	}
 
     opf_data_t opf = {0};
