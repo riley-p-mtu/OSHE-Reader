@@ -1,5 +1,5 @@
 <screen>
-	<view width="480" height="648" style_bg_color="#white" style_pad_all="0">
+	<view width="480" height="648" style_bg_color="#white" style_pad_all="0" scrollable="false">
 		<!-- Title -->
 		<lv_label
 			text="Settings"
@@ -17,7 +17,16 @@
 		<lv_obj x="0" y="110" width="480" height="1" style_bg_color="#black" style_border_width="0" />
 
 		<!-- Brightness Settings -->
-		<lv_obj x="0" y="125" width="480" height="60" style_bg_color="#white" style_border_width="0" style_pad_all="0">
+		<lv_obj
+			x="0"
+			y="125"
+			width="480"
+			height="60"
+			style_bg_color="#white"
+			style_border_width="0"
+			style_pad_all="0"
+			scrollable="false"
+		>
 			<lv_label
 				text="Brightness"
 				x="15"
@@ -27,7 +36,86 @@
 				align="left_mid"
 				style_text_color="#black"
 				style_text_font="settings_button_label"
+				scrollable="false"
 			/>
+
+			<!-- Brightness Level Boxes -->
+			<lv_obj
+				x="200"
+				y="10"
+				width="260"
+				height="40"
+				style_bg_color="#white"
+				style_border_width="0"
+				style_pad_all="0"
+				scrollable="false"
+			>
+				<!-- Box 1 -->
+				<lv_obj
+					name="brightness_box_1"
+					x="0"
+					y="5"
+					width="35"
+					height="20"
+					style_bg_color="#gray"
+					style_radius="3"
+					style_border_width="2"
+					style_border_color="#black"
+					scrollable="false"
+				/>
+				<!-- Box 2 -->
+				<lv_obj
+					name="brightness_box_2"
+					x="45"
+					y="5"
+					width="35"
+					height="20"
+					style_bg_color="#gray"
+					style_radius="3"
+					style_border_width="2"
+					style_border_color="#black"
+					scrollable="false"
+				/>
+				<!-- Box 3 -->
+				<lv_obj
+					name="brightness_box_3"
+					x="90"
+					y="5"
+					width="35"
+					height="20"
+					style_bg_color="#gray"
+					style_radius="3"
+					style_border_width="2"
+					style_border_color="#black"
+					scrollable="false"
+				/>
+				<!-- Box 4 -->
+				<lv_obj
+					name="brightness_box_4"
+					x="135"
+					y="5"
+					width="35"
+					height="20"
+					style_bg_color="#white"
+					style_radius="3"
+					style_border_width="2"
+					style_border_color="#black"
+					scrollable="false"
+				/>
+				<!-- Box 5 -->
+				<lv_obj
+					name="brightness_box_5"
+					x="180"
+					y="5"
+					width="35"
+					height="20"
+					style_bg_color="#white"
+					style_radius="3"
+					style_border_width="2"
+					style_border_color="#black"
+					scrollable="false"
+				/>
+			</lv_obj>
 		</lv_obj>
 
 		<!-- Divider -->
