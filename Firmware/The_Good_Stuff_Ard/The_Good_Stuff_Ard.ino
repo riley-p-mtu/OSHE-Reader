@@ -6,7 +6,7 @@
 
 // Number for button pins
 const int upBtn = 5;
-const int downBtn = 6;
+const int downBtn = 11;
 const int rightBtn = 7; 
 const int leftBtn = 4;
 const int homeBtn = 10;
@@ -151,10 +151,6 @@ void setup() {
     return;
   }
 
-  delay(5000);
-
-  Serial.printf("Test?\n");
-
   // Initialize button pins as input
   pinMode(upBtn, INPUT);
   pinMode(downBtn, INPUT);
@@ -168,42 +164,40 @@ void setup() {
   listDir(SD, "/", 0);
   readFile(SD, "/inputDir/InputTest.txt");
 
-  // listDir(SD, "/", 0);
-  // writeFile(SD, "/hello.txt", "Hello World\n");
-  // readFile(SD, "/hello.txt");
-  // listDir(SD, "/", 0);
-  // renameFile(SD, "/hello.txt", "/foo.txt");
-  // deleteFile(SD, "/foo.txt");
-  // listDir(SD, "/", 0);
-
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+  
+  if (upBtnState == LOW && digitalRead(upBtn)) {
+    Serial.println("up");
+    appendFile(SD, "/inputDir/InputTest.txt", "Up\n");
+  }
+
+  if (downBtnState == LOW && digitalRead(downBtn)) {
+    Serial.println("down");
+    appendFile(SD, "/inputDir/InputTest.txt", "Down\n");
+  }
+
+  if (rightBtnState == LOW && digitalRead(rightBtn)) {
+    Serial.println("right");
+    appendFile(SD, "/inputDir/InputTest.txt", "Right\n");
+  }
+
+  if (leftBtnState == LOW && digitalRead(leftBtn)) {
+    Serial.println("left");
+    appendFile(SD, "/inputDir/InputTest.txt", "Left\n");
+  }
+
+  if (homeBtnState == LOW && digitalRead(homeBtn)) {
+    Serial.println("home");
+    appendFile(SD, "/inputDir/InputTest.txt", "Home\n");
+    readFile(SD, "/inputDir/InputTest.txt");
+  }
+
   upBtnState = digitalRead(upBtn);
   downBtnState = digitalRead(downBtn);
   rightBtnState = digitalRead(rightBtn);
   leftBtnState = digitalRead(leftBtn);
   homeBtnState = digitalRead(homeBtn);
-  
-  if (upBtnState == HIGH) {
-    appendFile(SD, "/inputDir/InputTest.txt", "Up\n");
-  }
-
-  if (downBtnState == HIGH) {
-    appendFile(SD, "/inputDir/InputTest.txt", "Down\n");
-  }
-
-  if (rightBtnState == HIGH) {
-    appendFile(SD, "/inputDir/InputTest.txt", "Right\n");
-  }
-
-  if (leftBtnState == HIGH) {
-    appendFile(SD, "/inputDir/InputTest.txt", "Left\n");
-  }
-
-  if (homeBtnState == HIGH) {
-    appendFile(SD, "/inputDir/InputTest.txt", "Home\n");
-    readFile(SD, "/inputDir/InputTest.txt");
-  }
 }
