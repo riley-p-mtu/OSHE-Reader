@@ -145,6 +145,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESP32-C6-DEV-KIT-N8:ESP32-C6-DEV-KIT-N8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -798,10 +923,16 @@
 		)
 	)
 	(junction
-		(at 53.34 49.53)
+		(at 34.29 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "020a2c74-6dd7-4f2e-818e-86a331ec71a3")
+	)
+	(junction
+		(at 44.45 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78917f5-5508-4f79-8a45-26a47032f317")
 	)
 	(no_connect
 		(at 63.5 54.61)
@@ -845,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 53.34 49.53)
+			(xy 30.48 49.53) (xy 34.29 49.53)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 53.34 49.53)
+			(xy 34.29 50.8) (xy 34.29 49.53)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 57.15) (xy 53.34 57.15)
+			(xy 30.48 57.15) (xy 34.29 57.15)
 		)
 		(stroke
 			(width 0)
@@ -935,6 +1066,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 64.77) (xy 63.5 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bb210e-2787-4d6c-a8a9-252390dbc691")
+	)
+	(wire
+		(pts
 			(xy 60.96 72.39) (xy 63.5 72.39)
 		)
 		(stroke
@@ -952,16 +1093,6 @@
 			(type default)
 		)
 		(uuid "730b625f-bfa5-464c-93d4-af791764bddc")
-	)
-	(wire
-		(pts
-			(xy 60.96 64.77) (xy 63.5 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "792932b4-cf3b-4412-8e6f-3dbadc358ebe")
 	)
 	(wire
 		(pts
@@ -985,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 57.15) (xy 49.53 55.88)
+			(xy 30.48 57.15) (xy 30.48 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 50.8) (xy 49.53 49.53)
+			(xy 30.48 50.8) (xy 30.48 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 57.15) (xy 53.34 55.88)
+			(xy 34.29 57.15) (xy 34.29 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 49.53) (xy 63.5 49.53)
+			(xy 34.29 49.53) (xy 63.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1269,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 49.53 57.15 270)
+		(at 30.48 57.15 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1149,12 +1280,12 @@
 	)
 	(hierarchical_label "BAT+"
 		(shape input)
-		(at 60.96 64.77 180)
+		(at 44.45 59.69 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "15da4b9e-a8e7-42ec-9d18-d6de7a42b9f2")
 	)
@@ -1171,7 +1302,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 49.53 49.53 90)
+		(at 30.48 49.53 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1334,6 +1465,17 @@
 		)
 		(uuid "f0a172b5-d86d-4c85-accb-ac599fac9b8c")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 44.45 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9fd3e99-7a07-4682-a3c3-79c1f50a9440")
+	)
 	(symbol
 		(lib_id "ESP32-C6-DEV-KIT-N8:ESP32-C6-DEV-KIT-N8")
 		(at 83.82 68.58 0)
@@ -1495,7 +1637,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 49.53 53.34 0)
+		(at 30.48 53.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1504,7 +1646,7 @@
 		(dnp no)
 		(uuid "61a338b1-c736-43a8-b9d1-130d8bc2cb07")
 		(property "Reference" "C12"
-			(at 46.99 52.0762 0)
+			(at 27.94 52.0762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1655,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 46.99 54.6162 0)
+			(at 27.94 54.6162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 53.34 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 53.34 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1682,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 49.53 53.34 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,25 +1706,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 53.34 53.34 0)
+		(lib_id "Device:R_Small")
+		(at 44.45 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cea43524-da29-491e-a586-d62732d5c8a5")
-		(property "Reference" "C13"
-			(at 55.88 52.0762 0)
+		(uuid "9f2e4da2-84eb-4841-9582-9dd7a0335be9")
+		(property "Reference" "R22"
+			(at 41.91 66.0399 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 55.88 54.6162 0)
+		(property "Value" "1M"
+			(at 41.91 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 53.34 0)
+			(at 44.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +1743,146 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 53.34 0)
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a3ccd8-0cb7-486c-aebd-b751a3dccb07")
+		)
+		(pin "2"
+			(uuid "49eb03a7-76a5-4402-99fd-d0fbbff93020")
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/03424bf7-051b-4358-a08a-8020da2e6def"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 44.45 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca9ba766-2f54-4724-9522-fbf68b8ddb44")
+		(property "Reference" "R21"
+			(at 41.91 60.9599 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 41.91 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fae7430a-dc55-4ec6-9a02-c6757c32bfa9")
+		)
+		(pin "2"
+			(uuid "fe89de95-23d5-464c-8375-75ecb528bb8c")
+		)
+		(instances
+			(project ""
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/03424bf7-051b-4358-a08a-8020da2e6def"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 34.29 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cea43524-da29-491e-a586-d62732d5c8a5")
+		(property "Reference" "C13"
+			(at 36.83 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 36.83 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1891,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 53.34 53.34 0)
+			(at 34.29 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
