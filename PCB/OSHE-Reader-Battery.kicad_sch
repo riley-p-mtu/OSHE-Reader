@@ -2228,7 +2228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_{T1}/100K"
+		(property "Value" "R_{T1}/10K"
 			(at 41.91 107.9499 0)
 			(effects
 				(font
@@ -2693,7 +2693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_{T2}/100K"
+		(property "Value" "R_{T2}/10K"
 			(at 41.91 92.7099 0)
 			(effects
 				(font
