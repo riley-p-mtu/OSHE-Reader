@@ -156,6 +156,147 @@
 	(net 76 "unconnected-(U4-USB_N-Pad30)")
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
+		(uuid "0054e487-577d-4f9d-a0df-248dc76f3482")
+		(at 104.0375 47.5)
+		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R17"
+			(at 0 -1.83 0)
+			(layer "F.SilkS")
+			(uuid "3329870f-84b5-47c1-ab14-10dc843f006a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 0 1.83 0)
+			(layer "F.Fab")
+			(uuid "d34684fb-c508-4ed6-a67f-7fffb7e4c794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cfdee66-9924-43e8-b1f2-c37334eca862")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e556348e-9d44-47b8-ab46-d2dc1e89047f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/a0d77e11-a8cb-4358-a866-07c3f62d1fe3")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b6114b7d-2133-43ed-ba66-1dadf6d3abc8")
+		)
+		(fp_line
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c59bb5c7-ea2a-4446-a0a7-38dbcba29793")
+		)
+		(fp_rect
+			(start -2.28 -1.13)
+			(end 2.28 1.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d86bc1f6-85ac-4b15-b670-4f418c40e15d")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "22dc71f5-ab78-4396-a752-afa1c3e1ef99")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d67f4f74-caf2-4382-9888-57eb12b9d57a")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 46 "/Buttons/RightButton")
+			(pintype "passive")
+			(uuid "57c55637-0f3a-4b2c-8d48-22a3a4303249")
+		)
+		(pad "2" smd roundrect
+			(at 1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "44c61a91-5b49-40e2-a5db-187826936b65")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_1206_3216Metric"
+		(layer "F.Cu")
 		(uuid "10e2cb04-72b9-49cc-b494-9c97ff37e13c")
 		(at 106.4625 61)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -818,6 +959,311 @@
 			(uuid "7914a3a1-ea49-45fc-926b-8d02e7db0b71")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(layer "F.Cu")
+		(uuid "4f96c6d9-df35-43b8-a6b5-5590243300c5")
+		(at 121.625 39.75)
+		(descr "Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf")
+		(tags "switch tactile SPST 1P1T straight NO SMTR C&K")
+		(property "Reference" "SW2"
+			(at 0 -3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a01f0c4c-6706-4595-b98b-588972e47f16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f8827902-d177-4e99-885a-d8bd0cbce818")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ed61b3d-a336-4243-99b1-b5c416f4e5c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1c23519-fceb-4d61-b18b-434bccd3a61f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/b223d5bc-6af0-44a5-b31d-6d1cd813e9f5")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.2 -2)
+			(end -3.2 -0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "87d1f3eb-add7-4868-ae02-4160c18d7e2c")
+		)
+		(fp_line
+			(start -3.2 0.8)
+			(end -3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8feef77d-0e32-408f-abc5-5a501fbeeb88")
+		)
+		(fp_line
+			(start -3.2 2)
+			(end 3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d3460ecc-6b0e-4d43-ad2f-83b29de96746")
+		)
+		(fp_line
+			(start 3.2 -2)
+			(end -3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc933509-aa3b-43eb-85ba-c043d542fe4b")
+		)
+		(fp_line
+			(start 3.2 -0.8)
+			(end 3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "41c66302-4a2c-4bb2-bb52-8d6e7e4ebc03")
+		)
+		(fp_line
+			(start 3.2 2)
+			(end 3.2 0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52d1edab-b001-4387-856f-5e219b6d5615")
+		)
+		(fp_rect
+			(start -1.35 -0.65)
+			(end 1.35 0.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "74c3089a-3b72-4ca2-9c40-eb2e78c3e986")
+		)
+		(fp_line
+			(start -4.75 -0.75)
+			(end -3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eb8545fa-bc23-4ed9-83d3-f6bcebb35c6a")
+		)
+		(fp_line
+			(start -4.75 0.75)
+			(end -4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c8196054-4ee4-4e50-b166-871ccb876bb6")
+		)
+		(fp_line
+			(start -3.3 -2.1)
+			(end 3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7097951d-8d63-44fe-bd37-0717ab60b805")
+		)
+		(fp_line
+			(start -3.3 -0.75)
+			(end -3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a433e1af-2017-4738-b182-263c5eda72da")
+		)
+		(fp_line
+			(start -3.3 0.75)
+			(end -4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7260e329-b314-49e7-b36c-38e59a811fc4")
+		)
+		(fp_line
+			(start -3.3 2.1)
+			(end -3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c1a743db-b868-40cc-8585-fabfef386976")
+		)
+		(fp_line
+			(start 3.3 -2.1)
+			(end 3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0ddd1ba2-3ea8-49f0-bed1-3ee2511b6ad2")
+		)
+		(fp_line
+			(start 3.3 -0.75)
+			(end 4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3767bd01-cb96-4894-a685-d561fb393950")
+		)
+		(fp_line
+			(start 3.3 0.75)
+			(end 3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "91059b4e-37d7-4b70-a6e9-bf513e251ab1")
+		)
+		(fp_line
+			(start 3.3 2.1)
+			(end -3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e6631fc6-163d-4e84-84ad-ae0683711dfd")
+		)
+		(fp_line
+			(start 4.75 -0.75)
+			(end 4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9b7aba1b-b07b-4b20-9070-0b0249dce924")
+		)
+		(fp_line
+			(start 4.75 0.75)
+			(end 3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f069720a-bc1d-4a40-aa8f-f297ab8cef05")
+		)
+		(fp_rect
+			(start -3.05 -1.85)
+			(end 3.05 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "fa830c3f-5f6b-4851-91d1-dd7286f5a92a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "11b572a4-ccff-480c-a30b-2e90450cc188")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 23 "+3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "127b01cc-db2e-4051-94cb-8975c5941c93")
+		)
+		(pad "2" smd rect
+			(at 3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 46 "/Buttons/RightButton")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "fb007fda-4be4-4aa8-bc40-380f9d1e1206")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TPS5432DDAR:DDA_R-PDSO-G8_TEX"
 		(layer "F.Cu")
@@ -1952,6 +2398,311 @@
 			)
 		)
 	)
+	(footprint "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(layer "F.Cu")
+		(uuid "5f2680bf-f8c5-4282-95be-2718fc1329aa")
+		(at 121.625 55.5)
+		(descr "Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf")
+		(tags "switch tactile SPST 1P1T straight NO SMTR C&K")
+		(property "Reference" "SW5"
+			(at 0 -3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5971b565-8712-476e-9f59-84e8c7f84a27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d4b9b899-ac55-468e-86e7-58d6073d6ed9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe8394f5-0a5c-4c3b-9c74-bed191aa5bb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b051633-0bfe-4ee8-be55-1ffb04d38cba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/3ed5d5b3-188e-4420-80c6-d9dcce01ecdd")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.2 -2)
+			(end -3.2 -0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c95ea40-8f4e-4904-b114-71d8acbd670c")
+		)
+		(fp_line
+			(start -3.2 0.8)
+			(end -3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "38ef2df9-c34f-4185-9608-fb328432624b")
+		)
+		(fp_line
+			(start -3.2 2)
+			(end 3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "17cbcca3-0ed9-4bf1-ad4f-1c9a41315a2c")
+		)
+		(fp_line
+			(start 3.2 -2)
+			(end -3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7100c375-e796-444c-abb8-1b5b2a0b71ca")
+		)
+		(fp_line
+			(start 3.2 -0.8)
+			(end 3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ed30d843-c060-4b08-afe0-9bfed5faed02")
+		)
+		(fp_line
+			(start 3.2 2)
+			(end 3.2 0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8a5a8701-8334-43a1-99ee-56db5dcb4809")
+		)
+		(fp_rect
+			(start -1.35 -0.65)
+			(end 1.35 0.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "a71567bd-da4a-4898-ae98-95cfff79756e")
+		)
+		(fp_line
+			(start -4.75 -0.75)
+			(end -3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "33e7b18d-11d2-4e92-b159-e19f963a886f")
+		)
+		(fp_line
+			(start -4.75 0.75)
+			(end -4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "17aa5c3d-cee3-49d4-b3d5-62474fe3deec")
+		)
+		(fp_line
+			(start -3.3 -2.1)
+			(end 3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "097a4785-df8c-45f7-b6c1-273c2a99bb2f")
+		)
+		(fp_line
+			(start -3.3 -0.75)
+			(end -3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7846409a-03f1-4605-90b0-61d37a5848ee")
+		)
+		(fp_line
+			(start -3.3 0.75)
+			(end -4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c1762320-018c-4e34-af94-aad5fb51df0b")
+		)
+		(fp_line
+			(start -3.3 2.1)
+			(end -3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a4ed27b7-9733-47ef-be78-9a41e3143acc")
+		)
+		(fp_line
+			(start 3.3 -2.1)
+			(end 3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "89e81e13-d5cb-4706-b6d3-c6eb74d69f78")
+		)
+		(fp_line
+			(start 3.3 -0.75)
+			(end 4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0f847f9e-da30-45c4-9733-dfb0e48c90ed")
+		)
+		(fp_line
+			(start 3.3 0.75)
+			(end 3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5ba9b1d2-beed-4978-82ae-da0f4aab4954")
+		)
+		(fp_line
+			(start 3.3 2.1)
+			(end -3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6241bb76-d6c1-4c9f-95d8-9e25e64a6a9c")
+		)
+		(fp_line
+			(start 4.75 -0.75)
+			(end 4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2f33851d-6162-4c01-91b6-596c0b4c1340")
+		)
+		(fp_line
+			(start 4.75 0.75)
+			(end 3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "13a1c2ed-fc62-49b1-b460-b4f46ff2851a")
+		)
+		(fp_rect
+			(start -3.05 -1.85)
+			(end 3.05 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7eb6a5b2-8f60-4764-9e1d-36228b771868")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f5e552f2-ace7-4465-b084-37e1b7bf45cf")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 23 "+3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "7e25caaa-0f8e-460b-a589-9a00b4da317f")
+		)
+		(pad "2" smd rect
+			(at 3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 64 "/Buttons/HomeButton")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "d3178e63-f25a-4197-abcc-ba0d1b102a01")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "0ZCJ0050FF2G:0ZCJ_BEL"
 		(layer "F.Cu")
 		(uuid "7f4f5112-41b9-447b-bac8-158cc5210196")
@@ -2264,6 +3015,311 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(layer "F.Cu")
+		(uuid "7fd5c450-a73e-4e70-aff1-1e0ef605e8b2")
+		(at 121.625 45)
+		(descr "Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf")
+		(tags "switch tactile SPST 1P1T straight NO SMTR C&K")
+		(property "Reference" "SW3"
+			(at 0 -3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "37c903ed-151d-4124-a0ac-18c73c579005")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "779c0c62-9d40-4bdf-8802-fd135ed6dae9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad5240ee-cb23-4a3f-bc38-dd7e8249461f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de4bb89d-7a3e-491d-8c64-d14d5a7b2add")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/5aaf6178-bbd2-4aef-9dd6-b692f570adb8")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.2 -2)
+			(end -3.2 -0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7302daaf-48fa-41cf-ab24-c7b1ed5e813b")
+		)
+		(fp_line
+			(start -3.2 0.8)
+			(end -3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ecd59f35-a414-416d-97e5-4dd94c6476e0")
+		)
+		(fp_line
+			(start -3.2 2)
+			(end 3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "788d35cf-242e-499a-bdf3-52077487ad93")
+		)
+		(fp_line
+			(start 3.2 -2)
+			(end -3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7965713b-b495-4ed1-9f98-5efe8b61dd0a")
+		)
+		(fp_line
+			(start 3.2 -0.8)
+			(end 3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1dceeddf-34f9-4991-89e2-0dc3591e0741")
+		)
+		(fp_line
+			(start 3.2 2)
+			(end 3.2 0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58bf17bf-cd89-4f71-9476-78c42775cd1a")
+		)
+		(fp_rect
+			(start -1.35 -0.65)
+			(end 1.35 0.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "083ff5aa-026b-48d0-8298-306ea612be25")
+		)
+		(fp_line
+			(start -4.75 -0.75)
+			(end -3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "01270dc7-8332-4b4a-9ebe-584c9c156d23")
+		)
+		(fp_line
+			(start -4.75 0.75)
+			(end -4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1f16bfbe-74ef-4b7e-93d4-3cc13210028b")
+		)
+		(fp_line
+			(start -3.3 -2.1)
+			(end 3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4c346ffc-16f6-4b3a-abf6-18686a259dd7")
+		)
+		(fp_line
+			(start -3.3 -0.75)
+			(end -3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a38beb88-8092-4b56-85e9-92e72336187f")
+		)
+		(fp_line
+			(start -3.3 0.75)
+			(end -4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "94aa628c-4ec8-425f-b9a1-3d5589cc94f7")
+		)
+		(fp_line
+			(start -3.3 2.1)
+			(end -3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eb9ea236-fa3f-4bab-8462-78abba883080")
+		)
+		(fp_line
+			(start 3.3 -2.1)
+			(end 3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "672bbeaa-a5ea-461b-8556-abcfa7d6e9d2")
+		)
+		(fp_line
+			(start 3.3 -0.75)
+			(end 4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0f9161fe-f0ea-4f74-bc3d-452059cb9d69")
+		)
+		(fp_line
+			(start 3.3 0.75)
+			(end 3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f969773-fb79-4bdf-8d32-6954abb232e4")
+		)
+		(fp_line
+			(start 3.3 2.1)
+			(end -3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f532256f-df77-4a18-bcfa-629ed955cce3")
+		)
+		(fp_line
+			(start 4.75 -0.75)
+			(end 4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "04c394fa-658c-4f47-bcbc-542298c4194e")
+		)
+		(fp_line
+			(start 4.75 0.75)
+			(end 3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e2d6bb36-62e2-4c9a-9c08-994e81d4a7d3")
+		)
+		(fp_rect
+			(start -3.05 -1.85)
+			(end 3.05 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "1d63f5ac-8176-4f94-bfa9-815c8098c3cd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0b9c62c0-1ae5-4cd4-ac1c-4fbf87b0cf15")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 23 "+3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "3f657b4c-fab8-41cc-b07c-77ad762cbaff")
+		)
+		(pad "2" smd rect
+			(at 3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 63 "/Buttons/UpButton")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "45f2d876-8a5d-4895-9e27-93fc5df9c834")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "0ZCJ0050FF2G:0ZCJ_BEL"
 		(layer "F.Cu")
@@ -3388,6 +4444,757 @@
 			)
 		)
 	)
+	(footprint "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(layer "F.Cu")
+		(uuid "a0e805f2-f76b-4b0e-a994-14cf58ecb786")
+		(at 121.625 34.5)
+		(descr "Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf")
+		(tags "switch tactile SPST 1P1T straight NO SMTR C&K")
+		(property "Reference" "SW1"
+			(at 0 -3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5e2e6448-e823-4918-937e-501205059ea7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "88be8604-d6a3-4c28-92fa-79fd8a0bfa47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f361de2-1055-499c-ac46-aa92b91fa95b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b15ae415-0bbd-4873-80ec-ac2c41eefe77")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/e4828fb6-c0ec-4f13-85cf-8310f5c364e2")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.2 -2)
+			(end -3.2 -0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4f3749f2-7e4b-4a40-942e-1061e5827c31")
+		)
+		(fp_line
+			(start -3.2 0.8)
+			(end -3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d8e9af4-1850-4bba-973e-3c5aa593f8b9")
+		)
+		(fp_line
+			(start -3.2 2)
+			(end 3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "06a1e37d-a3c1-4dfe-909c-bc77f222ac0f")
+		)
+		(fp_line
+			(start 3.2 -2)
+			(end -3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b50d3e86-3d47-44e6-b186-82dd77422aeb")
+		)
+		(fp_line
+			(start 3.2 -0.8)
+			(end 3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "676ae367-472b-41b0-8ad2-fbe3bdda0f03")
+		)
+		(fp_line
+			(start 3.2 2)
+			(end 3.2 0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "01d9b988-c840-44eb-8afe-21f57b85635b")
+		)
+		(fp_rect
+			(start -1.35 -0.65)
+			(end 1.35 0.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "961ea37f-2aea-4ff2-a41e-ac991a4662ef")
+		)
+		(fp_line
+			(start -4.75 -0.75)
+			(end -3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9dbc64da-2344-4fad-a8d0-6eb1a20c52e8")
+		)
+		(fp_line
+			(start -4.75 0.75)
+			(end -4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7fa72745-b78a-44be-aac3-e015e4365e68")
+		)
+		(fp_line
+			(start -3.3 -2.1)
+			(end 3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ead09a17-3019-4312-bfa2-f7f4aa4fd41d")
+		)
+		(fp_line
+			(start -3.3 -0.75)
+			(end -3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "68659d51-7083-4d2b-885c-c3e09c3fde83")
+		)
+		(fp_line
+			(start -3.3 0.75)
+			(end -4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1656ff6c-9409-4d46-837e-af3262bf9307")
+		)
+		(fp_line
+			(start -3.3 2.1)
+			(end -3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "78e6067d-a968-41a2-b145-bcd3e4bd3540")
+		)
+		(fp_line
+			(start 3.3 -2.1)
+			(end 3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "37e9dc32-6109-4166-bb8f-0fdb5b85625a")
+		)
+		(fp_line
+			(start 3.3 -0.75)
+			(end 4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b6dbed45-f354-498c-a0fb-bc17c08da29c")
+		)
+		(fp_line
+			(start 3.3 0.75)
+			(end 3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "195c98f0-cfc9-455b-8786-0f8e8f06f20e")
+		)
+		(fp_line
+			(start 3.3 2.1)
+			(end -3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "091ccfd1-ecc8-4982-a698-df614708b5b0")
+		)
+		(fp_line
+			(start 4.75 -0.75)
+			(end 4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e407cc66-8464-473a-b3e8-13f9dbd16b67")
+		)
+		(fp_line
+			(start 4.75 0.75)
+			(end 3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "188026c0-4227-4e26-880c-52f07e8039e2")
+		)
+		(fp_rect
+			(start -3.05 -1.85)
+			(end 3.05 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "8616a52b-115a-4562-8852-c677b15e84c0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bf2cc716-95bc-450b-a07c-17d81f244734")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 23 "+3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e9596cda-fc6b-4e0b-956c-ad682a4de87d")
+		)
+		(pad "2" smd rect
+			(at 3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 62 "/Buttons/LeftButton")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "adedc653-dcec-4841-a5b1-06e6da44a79c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(layer "F.Cu")
+		(uuid "acb5a847-ba2e-424e-a36c-8835a90fe3cc")
+		(at 121.625 50.25)
+		(descr "Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf")
+		(tags "switch tactile SPST 1P1T straight NO SMTR C&K")
+		(property "Reference" "SW4"
+			(at 0 -3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a53bc3ce-0b6f-439e-b8ed-157c09c12528")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d9e3484c-3831-484b-b831-95558600cb92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d95612ef-7b5d-40ae-a737-71f26ef9b129")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6483108-3e5e-4d40-9cb7-33522717625b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/d9ef0060-f9ea-4bda-87b6-66c206fbe74c")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.2 -2)
+			(end -3.2 -0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d4959132-49ad-4bcc-b7da-e036fdc5f4e0")
+		)
+		(fp_line
+			(start -3.2 0.8)
+			(end -3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3164baec-5c2b-49f7-a755-0cf5505a501d")
+		)
+		(fp_line
+			(start -3.2 2)
+			(end 3.2 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c1f46ef4-9555-4911-b222-13188b865fbe")
+		)
+		(fp_line
+			(start 3.2 -2)
+			(end -3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc991f14-0023-4ddc-8741-d16679800c8c")
+		)
+		(fp_line
+			(start 3.2 -0.8)
+			(end 3.2 -2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf6924bd-e2a9-4552-9b52-2e9cb3b04ea5")
+		)
+		(fp_line
+			(start 3.2 2)
+			(end 3.2 0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bdd4b151-61a4-49a6-acfc-9cbffd8f942d")
+		)
+		(fp_rect
+			(start -1.35 -0.65)
+			(end 1.35 0.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "558faa1e-ff2b-4310-a7cc-ba2f0ff1a890")
+		)
+		(fp_line
+			(start -4.75 -0.75)
+			(end -3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a7881a92-6b79-48f9-818b-d728fccb8397")
+		)
+		(fp_line
+			(start -4.75 0.75)
+			(end -4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "43ae5187-c43e-4e09-ba58-e46e11a1e526")
+		)
+		(fp_line
+			(start -3.3 -2.1)
+			(end 3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a6e351fe-7d19-469d-a340-5145517b463c")
+		)
+		(fp_line
+			(start -3.3 -0.75)
+			(end -3.3 -2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "06b6c0e7-e1d4-4c34-855d-d2b7e2f7b6a8")
+		)
+		(fp_line
+			(start -3.3 0.75)
+			(end -4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "487dafd1-93a5-4460-9a0f-04c2575fff1c")
+		)
+		(fp_line
+			(start -3.3 2.1)
+			(end -3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ebb86d32-a062-4bbb-b290-f76453e97364")
+		)
+		(fp_line
+			(start 3.3 -2.1)
+			(end 3.3 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "58049824-79c5-446f-a1a5-a9fb03ff721a")
+		)
+		(fp_line
+			(start 3.3 -0.75)
+			(end 4.75 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7caea9fe-0788-4fbe-b851-f2571f8653d4")
+		)
+		(fp_line
+			(start 3.3 0.75)
+			(end 3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c92866ee-86f7-42a8-a23f-bb653f8d1083")
+		)
+		(fp_line
+			(start 3.3 2.1)
+			(end -3.3 2.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "041b8f99-2d9f-4a67-b375-d98a3da98afe")
+		)
+		(fp_line
+			(start 4.75 -0.75)
+			(end 4.75 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea8fde2f-b298-4237-a4de-aa825832715c")
+		)
+		(fp_line
+			(start 4.75 0.75)
+			(end 3.3 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "747fd747-4443-4d16-8e48-80080ba91730")
+		)
+		(fp_rect
+			(start -3.05 -1.85)
+			(end 3.05 1.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9762fec6-79e7-44e5-886f-7754d6ed6c33")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "006d43e2-eb3b-4e25-911c-dbe0b35d390f")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 23 "+3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "c33aa4cb-ae7d-4bab-86f4-f45cc83ce7dc")
+		)
+		(pad "2" smd rect
+			(at 3.875 0)
+			(size 1.25 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 48 "/Buttons/DownButton")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "e9eb1ee5-ff55-4a21-8323-c534881cb322")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_1206_3216Metric"
+		(layer "F.Cu")
+		(uuid "b0df3eeb-9968-4f2e-b8eb-52e4e8657bc2")
+		(at 104.0375 37.57)
+		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R14"
+			(at 0 -1.83 0)
+			(layer "F.SilkS")
+			(uuid "52e428e0-47df-4726-94d1-fb11605c55f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 0 1.83 0)
+			(layer "F.Fab")
+			(uuid "9c314828-25ba-4774-add8-f363f8883df5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebfbbf5d-159a-4367-b4c3-776a8c2a4e17")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e50d8746-f3f8-4f2a-b3fb-ceb072cb8166")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/d09fb236-e049-41cb-a9b6-461919abf7bc")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b65462b2-3454-4a60-90e9-f72be1977ed0")
+		)
+		(fp_line
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8ed2dda3-1850-4200-aa59-b199d2154966")
+		)
+		(fp_rect
+			(start -2.28 -1.13)
+			(end 2.28 1.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "03ea066d-cbb2-4d9c-8696-5148d25eaa12")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "6256094b-670a-4c38-b023-684e1e2aed61")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "69fc19b5-cd47-4538-85bc-b9700d9a5186")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 63 "/Buttons/UpButton")
+			(pintype "passive")
+			(uuid "1c5838e4-9f9f-4d1e-bf99-66643823fce9")
+		)
+		(pad "2" smd roundrect
+			(at 1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "c6abc3df-4e3b-4367-88cb-fce94dad3f1f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "bbc5829d-4131-40b2-b12a-dba1de6216e5")
@@ -3660,6 +5467,147 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_1206_3216Metric"
+		(layer "F.Cu")
+		(uuid "c22ee614-b1cb-4755-b4a3-b3701ffd2daf")
+		(at 104.0375 44.19)
+		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R16"
+			(at 0 -1.83 0)
+			(layer "F.SilkS")
+			(uuid "6436d62c-8f2d-4474-babd-b1a4b34b4ff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 0 1.83 0)
+			(layer "F.Fab")
+			(uuid "3292215e-0b2f-4c35-af4a-63318ca28910")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc92cb1c-9ece-47a3-be9a-ce9dc2e648f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "729b6687-a006-42c5-be1f-5eb92e5ceacf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/fc68194f-aef4-4135-a2ac-d22fc09aff0f")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "404b3fa6-0fc8-4552-b66b-530f64fae611")
+		)
+		(fp_line
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c203e6e3-4269-4160-baf2-2e76a4545fd3")
+		)
+		(fp_rect
+			(start -2.28 -1.13)
+			(end 2.28 1.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3e4e8ce5-779f-4df9-a205-2e4a002a964c")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9cfd5d6d-a438-423c-b518-ec4133ab6132")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9170bff9-3812-4942-9251-30ac2327b519")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 62 "/Buttons/LeftButton")
+			(pintype "passive")
+			(uuid "909e1c7f-d647-4fab-8680-4f722fa7c142")
+		)
+		(pad "2" smd roundrect
+			(at 1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "dbca1d15-6b4c-4f13-890c-4b76e2ab3cc1")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4602,6 +6550,147 @@
 			(uuid "f78b4d46-c5f9-4d74-81bf-7bfe04132a7a")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Resistor_SMD:R_1206_3216Metric"
+		(layer "F.Cu")
+		(uuid "d40d0f78-839e-4288-91e8-c573e3f026d8")
+		(at 104.0375 40.88)
+		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R15"
+			(at 0 -1.83 0)
+			(layer "F.SilkS")
+			(uuid "b42ff46a-ffbe-46f1-ae0a-846f5019b76b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 0 1.83 0)
+			(layer "F.Fab")
+			(uuid "68aa96c4-bc7d-499e-a9dd-c87f528f0267")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ecbf438-fa1e-4787-bb7c-d5a27cc16c72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "510dfd61-059e-4510-bbd0-42240591d823")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/cd9a761b-9e40-4348-ba0f-0cfecbe6428b")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c89743d9-5dc3-4773-9fd3-cc179957119f")
+		)
+		(fp_line
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8e6a4358-7652-4556-ba0a-cea10b5fdf34")
+		)
+		(fp_rect
+			(start -2.28 -1.13)
+			(end 2.28 1.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f7358f51-94f8-4ebf-9462-133571b6e317")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e1f60bcb-2f32-4dd2-8ca3-ef65bd202847")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "92eef835-1aaa-4bad-934c-e5618c14aa08")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 48 "/Buttons/DownButton")
+			(pintype "passive")
+			(uuid "eebd1213-8ba4-401e-b188-89f0cb3bfc02")
+		)
+		(pad "2" smd roundrect
+			(at 1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "a3537325-06f7-4575-8656-5e1e596e1eb7")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "USB4125_GF_A:CONN6_USB4125_GCT"
 		(layer "F.Cu")
@@ -6586,6 +8675,147 @@
 			(uuid "c91e9df5-aa9e-4664-aeb2-1868509840a1")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Resistor_SMD:R_1206_3216Metric"
+		(layer "F.Cu")
+		(uuid "fb21fd3f-418b-443e-b996-d20de75261f4")
+		(at 129.705 33.53)
+		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R18"
+			(at 0 -1.83 0)
+			(layer "F.SilkS")
+			(uuid "1dc5829a-d9fa-4153-bae9-ed4892d5a73e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 0 1.83 0)
+			(layer "F.Fab")
+			(uuid "6eac9019-04b4-46b7-bd7a-87ada0b50333")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f0db2e1-44d1-4db8-be45-57b8bfa1b975")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abaf13ee-e680-48d7-a487-96dc09014a01")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/a815e849-6263-40fd-b2e2-975b77f2c5aa/91fbe539-3e6a-47a7-8046-e0c3e35af37c")
+		(sheetname "/Buttons/")
+		(sheetfile "OSHE-Reader-Buttons.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1cf6ce89-1abc-4a15-a258-5243db0e2116")
+		)
+		(fp_line
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ddc12183-0eba-4f41-80aa-f501418e77ec")
+		)
+		(fp_rect
+			(start -2.28 -1.13)
+			(end 2.28 1.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c5501f4e-4f15-4cbc-b37e-69cb342e29e5")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "69e2406e-daf9-43e0-932e-5c87248f20c3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "abaad4b1-9f43-47e7-a179-5bae54101737")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 64 "/Buttons/HomeButton")
+			(pintype "passive")
+			(uuid "9d4e48ab-e796-4739-9a1e-15732a4c1e34")
+		)
+		(pad "2" smd roundrect
+			(at 1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "751adc7a-fef8-4ec7-b225-f1ed8f51193a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
