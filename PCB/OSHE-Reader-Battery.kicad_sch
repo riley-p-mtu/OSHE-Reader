@@ -542,6 +542,263 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Thermistor_NTC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TH"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor_NTC"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_NTC_0_1"
+				(arc
+					(start -3.175 2.413)
+					(mid -3.0506 2.3165)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 2.794)
+					(mid -2.434 2.5608)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "IRF7326D2TRPBF:IRF7326D2TRPBF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1045,7 +1302,7 @@
 		(uuid "19df78ef-4f68-43df-8e9a-4796865b35c7")
 	)
 	(junction
-		(at 26.67 99.06)
+		(at 39.37 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "568c860c-1ee8-41f5-999d-ed494959d810")
@@ -1122,7 +1379,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 87.63) (xy 26.67 85.09)
+			(xy 25.4 109.22) (xy 25.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ce9a16-2bb2-4dc0-8156-2b9d60be8336")
+	)
+	(wire
+		(pts
+			(xy 39.37 87.63) (xy 39.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1149,16 +1416,6 @@
 			(type default)
 		)
 		(uuid "2b11bc3f-2b4a-4007-977a-397ad402d105")
-	)
-	(wire
-		(pts
-			(xy 26.67 99.06) (xy 29.21 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca526e1-d24e-41d3-87b1-5a3b3a07a3f2")
 	)
 	(wire
 		(pts
@@ -1262,6 +1519,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 99.06) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1e13d0-607f-4ad4-a8ec-4b6478a945b7")
+	)
+	(wire
+		(pts
 			(xy 137.16 97.79) (xy 137.16 100.33)
 		)
 		(stroke
@@ -1342,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 113.03) (xy 26.67 110.49)
+			(xy 39.37 113.03) (xy 39.37 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1382,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 102.87) (xy 26.67 99.06)
+			(xy 39.37 102.87) (xy 39.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1502,13 +1769,23 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 99.06) (xy 26.67 95.25)
+			(xy 39.37 99.06) (xy 39.37 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f80e95d4-5e2d-4031-b33c-38dcf49ba468")
+	)
+	(wire
+		(pts
+			(xy 25.4 99.06) (xy 39.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2bd518-574d-45a9-bdfb-809218e4b655")
 	)
 	(hierarchical_label "VOUT"
 		(shape output)
@@ -1545,7 +1822,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 26.67 113.03 270)
+		(at 39.37 113.03 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1600,7 +1877,7 @@
 	)
 	(hierarchical_label "TS"
 		(shape passive)
-		(at 29.21 99.06 0)
+		(at 44.45 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1611,7 +1888,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 26.67 85.09 90)
+		(at 39.37 85.09 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1652,6 +1929,17 @@
 			(justify right)
 		)
 		(uuid "b669df49-8dd0-4a06-be3f-023e1b918595")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 25.4 109.22 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbf8be39-7a79-4c46-b540-3da242e94509")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1923,7 +2211,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 26.67 106.68 0)
+		(at 39.37 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1932,7 +2220,7 @@
 		(fields_autoplaced yes)
 		(uuid "41a75619-5cf8-4c8a-9e8e-e93536dff001")
 		(property "Reference" "R4"
-			(at 29.21 105.4099 0)
+			(at 41.91 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2229,7 @@
 			)
 		)
 		(property "Value" "R_{T1}/100K"
-			(at 29.21 107.9499 0)
+			(at 41.91 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +2238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.892 106.68 90)
+			(at 37.592 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 106.68 0)
+			(at 39.37 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +2256,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 106.68 0)
+			(at 39.37 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,6 +2274,76 @@
 			(project ""
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/9b683008-b3f5-4049-bcf9-7e8cdd298ddd"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 25.4 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "574155aa-f1fb-40b3-8c2d-11b8f1ad496c")
+		(property "Reference" "TH2"
+			(at 27.94 101.9174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 27.94 104.4574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f58c1e99-3ab6-418f-a051-e1b03cd45fd1")
+		)
+		(pin "2"
+			(uuid "a78ff550-fa80-4841-8bb1-5fb77be5356a")
+		)
+		(instances
+			(project ""
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/9b683008-b3f5-4049-bcf9-7e8cdd298ddd"
+					(reference "TH2")
 					(unit 1)
 				)
 			)
@@ -2318,7 +2676,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 26.67 91.44 0)
+		(at 39.37 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2327,7 +2685,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6c3d450-a265-46f9-a662-3c6af02fb28b")
 		(property "Reference" "R3"
-			(at 29.21 90.1699 0)
+			(at 41.91 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2694,7 @@
 			)
 		)
 		(property "Value" "R_{T2}/100K"
-			(at 29.21 92.7099 0)
+			(at 41.91 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.892 91.44 90)
+			(at 37.592 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2712,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 91.44 0)
+			(at 39.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2721,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 91.44 0)
+			(at 39.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
