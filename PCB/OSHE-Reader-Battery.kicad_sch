@@ -1787,6 +1787,26 @@
 		)
 		(uuid "fc2bd518-574d-45a9-bdfb-809218e4b655")
 	)
+	(label "TS"
+		(at 44.45 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5400156d-2a3c-4efb-902e-56bb5722d86c")
+	)
+	(label "TS"
+		(at 36.83 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4ad923f-881d-4fae-97f5-225e59ecf830")
+	)
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 139.7 92.71 0)
@@ -1875,17 +1895,6 @@
 		)
 		(uuid "6dc97696-4eae-4320-b887-708928fae387")
 	)
-	(hierarchical_label "TS"
-		(shape passive)
-		(at 44.45 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8415511f-da15-4497-a52a-b5c40cca9983")
-	)
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 39.37 85.09 90)
@@ -1918,17 +1927,6 @@
 			(justify left)
 		)
 		(uuid "a0bdf666-46dc-400d-8deb-7b4854b3d9f6")
-	)
-	(hierarchical_label "TS"
-		(shape passive)
-		(at 36.83 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b669df49-8dd0-4a06-be3f-023e1b918595")
 	)
 	(hierarchical_label "GND"
 		(shape input)
