@@ -154,6 +154,147 @@
 	(net 74 "unconnected-(U4-GPIO15-Pad20)")
 	(net 75 "unconnected-(U4-UART_TXD-Pad18)")
 	(net 76 "unconnected-(U4-USB_N-Pad30)")
+	(footprint "Resistor_SMD:R_1206_3216Metric"
+		(layer "F.Cu")
+		(uuid "10e2cb04-72b9-49cc-b494-9c97ff37e13c")
+		(at 106.4625 61)
+		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R6"
+			(at 0 -1.83 0)
+			(layer "F.SilkS")
+			(uuid "982e7e19-fc55-4dcd-a415-cb8b5cd505b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 0 1.83 0)
+			(layer "F.Fab")
+			(uuid "fc6984c4-5dff-429f-88e4-5124f454e848")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73b1bde5-2807-439d-b145-966cd0571e20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c7d9c3f-412d-4935-9f7b-4341a23c08e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/9b683008-b3f5-4049-bcf9-7e8cdd298ddd/aa6d6733-f487-4f7f-8f5f-4992de229b7d")
+		(sheetname "/Battery Charging/")
+		(sheetfile "OSHE-Reader-Battery.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d535a8d-815c-4587-b391-add0eb17001a")
+		)
+		(fp_line
+			(start -0.727064 0.91)
+			(end 0.727064 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "caeb7ba1-e2db-462f-9069-f33562d74021")
+		)
+		(fp_rect
+			(start -2.28 -1.13)
+			(end 2.28 1.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e32dea9c-1a6e-42b9-bdfd-761e7066d1f9")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "8952037c-e481-4a0a-8480-4fa8b2bdbdfc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7978f0d0-f74f-4760-b1aa-74dbfd9bc046")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 1 "/Battery Charging/VBUS")
+			(pintype "passive")
+			(uuid "ea92a2e7-ebc7-4823-ab89-0de99192d287")
+		)
+		(pad "2" smd roundrect
+			(at 1.4625 0)
+			(size 1.125 1.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.222222)
+			(net 2 "GND")
+			(pintype "passive")
+			(uuid "6cab11f5-9f2c-427b-b5ed-b4a76dd78d33")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "FH12A_24S_0_5SH_55_:CONN24_1X24_DRC_FFC_HIR"
 		(layer "F.Cu")
 		(uuid "1d5d9b60-3cf7-4430-a9c5-c81b9129bf80")
