@@ -2389,7 +2389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b3cd1e5-4692-4a09-ad48-0f5eadcf670d")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 45.72 62.2299 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 48.5648 67.31 0)
 			(effects
 				(font
@@ -2441,6 +2441,12 @@
 			(uuid "65c4c9ba-a97d-48ef-8089-1a5b724a4199")
 		)
 		(instances
+			(project "OSHE-Reader-SD-Card"
+				(path "/276472ca-f1d7-4a72-a9b0-d2661de39226"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/f673c940-d558-4160-83eb-d33ca6356616"
 					(reference "C24")
@@ -2576,6 +2582,12 @@
 			(uuid "9d3142d6-6e81-4c48-8a3d-fa9a1cb3624f")
 		)
 		(instances
+			(project "OSHE-Reader-SD-Card"
+				(path "/276472ca-f1d7-4a72-a9b0-d2661de39226"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/f673c940-d558-4160-83eb-d33ca6356616"
 					(reference "J2")
@@ -2594,7 +2606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf2c355-ffab-428c-a81f-e84565f5f522")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 58.42 62.2299 0)
 			(effects
 				(font
@@ -2612,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 55.5752 67.31 0)
 			(effects
 				(font
@@ -2646,6 +2658,12 @@
 			(uuid "9913eb0d-b023-48db-ae4b-05c307cceab4")
 		)
 		(instances
+			(project "OSHE-Reader-SD-Card"
+				(path "/276472ca-f1d7-4a72-a9b0-d2661de39226"
+					(reference "C26")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/f673c940-d558-4160-83eb-d33ca6356616"
 					(reference "C25")
@@ -2654,4 +2672,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

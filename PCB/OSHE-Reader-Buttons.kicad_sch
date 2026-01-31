@@ -785,7 +785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ed5d5b3-188e-4420-80c6-d9dcce01ecdd")
-		(property "Reference" "SW5"
+		(property "Reference" "SW3"
 			(at 105.41 86.36 0)
 			(effects
 				(font
@@ -841,6 +841,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -852,7 +858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aaf6178-bbd2-4aef-9dd6-b692f570adb8")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 54.61 39.37 0)
 			(effects
 				(font
@@ -908,6 +914,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -920,7 +932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91fbe539-3e6a-47a7-8046-e0c3e35af37c")
-		(property "Reference" "R18"
+		(property "Reference" "R15"
 			(at 115.57 100.3299 0)
 			(effects
 				(font
@@ -978,6 +990,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -990,7 +1008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0d77e11-a8cb-4358-a866-07c3f62d1fe3")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 142.24 80.0099 0)
 			(effects
 				(font
@@ -1048,6 +1066,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1060,7 +1084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b223d5bc-6af0-44a5-b31d-6d1cd813e9f5")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -1116,6 +1140,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1128,7 +1158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd9a761b-9e40-4348-ba0f-0cfecbe6428b")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 68.58 81.2799 0)
 			(effects
 				(font
@@ -1186,6 +1216,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1198,7 +1234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d09fb236-e049-41cb-a9b6-461919abf7bc")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 68.58 50.7999 0)
 			(effects
 				(font
@@ -1256,6 +1292,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1268,7 +1310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9ef0060-f9ea-4bda-87b6-66c206fbe74c")
-		(property "Reference" "SW4"
+		(property "Reference" "SW2"
 			(at 54.61 66.04 0)
 			(effects
 				(font
@@ -1324,6 +1366,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1336,7 +1384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4828fb6-c0ec-4f13-85cf-8310f5c364e2")
-		(property "Reference" "SW1"
+		(property "Reference" "SW5"
 			(at 128.27 41.91 0)
 			(effects
 				(font
@@ -1392,6 +1440,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1404,7 +1458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc68194f-aef4-4135-a2ac-d22fc09aff0f")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 143.51 54.6099 0)
 			(effects
 				(font
@@ -1462,6 +1516,18 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
