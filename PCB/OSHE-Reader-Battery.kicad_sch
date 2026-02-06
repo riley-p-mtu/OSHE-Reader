@@ -2345,10 +2345,6 @@
 		(color 0 0 0 0)
 		(uuid "dbe7f369-083c-4b06-bf72-c36cfe363def")
 	)
-	(no_connect
-		(at 68.58 104.14)
-		(uuid "d85643d1-5fa6-4cae-b248-13f7680c12a1")
-	)
 	(wire
 		(pts
 			(xy 64.77 95.25) (xy 64.77 100.33)
@@ -2511,6 +2507,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 104.14) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e369d02-1227-4f13-8ff2-0d7e65131733")
+	)
+	(wire
+		(pts
 			(xy 64.77 85.09) (xy 64.77 87.63)
 		)
 		(stroke
@@ -2588,6 +2594,16 @@
 			(type default)
 		)
 		(uuid "8f36f862-62bb-4714-8956-26a65af270dd")
+	)
+	(wire
+		(pts
+			(xy 68.58 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9414a8fd-f2c9-4a39-8842-53684184d74e")
 	)
 	(wire
 		(pts
@@ -2868,6 +2884,17 @@
 			(justify right bottom)
 		)
 		(uuid "e4ad923f-881d-4fae-97f5-225e59ecf830")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 71.12 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d45a51b-9ab0-4e69-b963-5900c5b58ecf")
 	)
 	(hierarchical_label "VOUT"
 		(shape output)

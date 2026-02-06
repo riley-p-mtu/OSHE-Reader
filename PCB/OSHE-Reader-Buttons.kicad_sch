@@ -1377,12 +1377,12 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 128.27 49.53 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4828fb6-c0ec-4f13-85cf-8310f5c364e2")
 		(property "Reference" "SW1"
 			(at 128.27 41.91 0)
