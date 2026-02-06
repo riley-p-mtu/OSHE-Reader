@@ -23,7 +23,8 @@ void setup(){
 
 void loop(){
   if (upBtnState == LOW && digitalRead(upBtn)) {
-    
+    lv_obj_t * btn = lv_button_create(lv_screen_active());
+    lv_obj_add_event_cb(btn, my_event_cb, LV_EVENT_CLICKED, user_data);
   }
 
   if (downBtnState == LOW && digitalRead(downBtn)) {
