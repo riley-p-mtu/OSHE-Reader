@@ -147,208 +147,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Thermistor"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TH"
-				(at 2.54 1.27 90)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Thermistor"
-				(at -2.54 0 90)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -369,7 +188,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Temperature dependent resistor"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -378,7 +197,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res thermistor"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -387,7 +206,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -396,191 +215,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "Thermistor_0_1"
-				(polyline
-					(pts
-						(xy -1.905 3.175) (xy -1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -3.175) (xy 1.905 -3.175)
-					)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
-						(width 0.254)
+						(width 1.27)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Thermistor_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -813,28 +457,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "BATTERY, NOT ON PCB\n"
-		(exclude_from_sim no)
-		(at 93.98 147.32 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "2246bc08-bf71-453b-9988-314be9c0551f")
-	)
-	(junction
-		(at 92.71 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0829550a-470c-47e8-9df6-204ccff02f10")
-	)
-	(junction
-		(at 90.17 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "666bc772-c3a2-4d92-83b5-b18aa60eb418")
-	)
 	(wire
 		(pts
 			(xy 271.78 48.26) (xy 274.32 48.26)
@@ -917,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 97.79) (xy 102.87 97.79)
+			(xy 90.17 99.06) (xy 102.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -934,16 +556,6 @@
 			(type default)
 		)
 		(uuid "1c8e376f-e883-48f1-9b4a-84fbbbb45849")
-	)
-	(wire
-		(pts
-			(xy 90.17 134.62) (xy 90.17 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "287b525c-74de-4cb5-9396-43b8e2d067cf")
 	)
 	(wire
 		(pts
@@ -967,16 +579,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 134.62) (xy 92.71 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c61f4e-bd04-4fa5-9fea-6533becf98fe")
-	)
-	(wire
-		(pts
 			(xy 229.87 63.5) (xy 229.87 66.04)
 		)
 		(stroke
@@ -994,16 +596,6 @@
 			(type default)
 		)
 		(uuid "48837ff6-50da-473e-b431-eade419b3a2b")
-	)
-	(wire
-		(pts
-			(xy 90.17 123.19) (xy 90.17 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48fee190-9500-407b-af5e-55ffd07ca4e9")
 	)
 	(wire
 		(pts
@@ -1097,16 +689,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 101.6) (xy 102.87 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6620923c-dff2-4895-b502-b0d0676b4a23")
-	)
-	(wire
-		(pts
 			(xy 143.51 35.56) (xy 146.05 35.56)
 		)
 		(stroke
@@ -1124,16 +706,6 @@
 			(type default)
 		)
 		(uuid "7926a951-6039-4835-a5f5-5afe06e19a26")
-	)
-	(wire
-		(pts
-			(xy 92.71 134.62) (xy 95.25 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cedecaa-11c6-430d-af88-8af6a42cbd98")
 	)
 	(wire
 		(pts
@@ -1167,16 +739,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 121.92) (xy 95.25 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bc98d2b-e7c6-489a-898b-c0419c122263")
-	)
-	(wire
-		(pts
 			(xy 143.51 60.96) (xy 146.05 60.96)
 		)
 		(stroke
@@ -1197,16 +759,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 134.62) (xy 92.71 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a08d21a-74fb-4c1c-ac6b-5345699870a8")
-	)
-	(wire
-		(pts
 			(xy 162.56 105.41) (xy 162.56 107.95)
 		)
 		(stroke
@@ -1217,23 +769,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 71.12) (xy 90.17 97.79)
+			(xy 90.17 71.12) (xy 90.17 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a92cff6f-affb-46d4-ac41-83492c5f1295")
-	)
-	(wire
-		(pts
-			(xy 95.25 132.08) (xy 95.25 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa2b1f9a-87c5-4c62-92e9-4563f24efff3")
 	)
 	(wire
 		(pts
@@ -1287,7 +829,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 105.41) (xy 142.24 105.41)
+			(xy 139.7 104.14) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +869,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 105.41) (xy 100.33 107.95)
+			(xy 100.33 104.14) (xy 100.33 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1387,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 105.41) (xy 100.33 105.41)
+			(xy 102.87 104.14) (xy 100.33 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1188,7 @@
 		(uuid "d2f0b4ae-abb0-46a2-b566-e18cc1961e74")
 	)
 	(label "BAT_STAT"
-		(at 142.24 105.41 0)
+		(at 142.24 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,91 +1216,6 @@
 			(justify left bottom)
 		)
 		(uuid "f3698525-4630-4bb5-94e1-492a5f58ba2e")
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 73.66 119.38) (xy 114.3 119.38) (xy 114.3 150.495) (xy 73.66 150.495)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 9fce1bc0-8a8e-4eb8-9315-ace010b3ce23)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor")
-		(at 95.25 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01ecb635-5d21-4c9c-83b2-21bd78f32564")
-		(property "Reference" "TH1"
-			(at 99.06 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Thermistor"
-			(at 99.06 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor"
-			(at 95.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e14e8de-22a2-47ea-940f-e22426a9eafb")
-		)
-		(pin "2"
-			(uuid "5c5ffc58-1662-4e57-a508-815b7ff1116f")
-		)
-		(instances
-			(project ""
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1821,6 +1278,70 @@
 			(project ""
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 62.23 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "167debcd-36bc-4e5e-8a80-b2183a9c35b6")
+		(property "Reference" "H3"
+			(at 64.77 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 64.77 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1894,72 +1415,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2519bea9-d99d-4edf-86e0-2f1a3cad4d39")
-		(property "Reference" "#PWR05"
-			(at 92.71 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5136d1ae-f869-484a-8d90-0240eca77aff")
-		)
-		(instances
-			(project "OSHE-Reader-PCB"
-				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 107.95 0)
+		(at 100.33 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1968,7 +1424,7 @@
 		(fields_autoplaced yes)
 		(uuid "3718e86a-a7fe-4c0e-af63-177865803b91")
 		(property "Reference" "#PWR02"
-			(at 100.33 114.3 0)
+			(at 100.33 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 113.03 0)
+			(at 100.33 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +1441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 107.95 0)
+			(at 100.33 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +1450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 107.95 0)
+			(at 100.33 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +1459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 107.95 0)
+			(at 100.33 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,18 +1480,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 90.17 128.27 0)
-		(mirror y)
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42891394-9a21-4318-8066-2707ec533f4a")
-		(property "Reference" "BT1"
-			(at 86.36 125.1584 0)
+		(uuid "3bf4fc89-81ad-4264-9298-4c1bd9877f12")
+		(property "Reference" "H1"
+			(at 26.67 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,8 +1498,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 86.36 127.6984 0)
+		(property "Value" "MountingHole"
+			(at 26.67 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,8 +1507,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 90.17 126.746 90)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 24.13 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +1517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 126.746 90)
+			(at 24.13 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,25 +1525,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 90.17 128.27 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 24.13 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "17a572a5-9b3f-41fa-b9b7-95bc94cad832")
-		)
-		(pin "2"
-			(uuid "e501a557-bd04-48a8-9d6d-9f5005dfa255")
 		)
 		(instances
 			(project ""
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
-					(reference "BT1")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2155,6 +1604,70 @@
 			(project ""
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "511fa4c0-22f9-4751-8e34-4b613c99984c")
+		(property "Reference" "H2"
+			(at 45.72 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 43.18 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OSHE-Reader-PCB"
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2565,6 +2078,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 213.36 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9c686ba-9935-436f-896a-bb5286675819")
+		(property "Reference" "#PWR04"
+			(at 213.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de99c570-a212-4945-958e-164ac133a520")
+		)
+		(instances
+			(project ""
+				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 19.05 107.95 0)
 		(unit 1)
@@ -2763,17 +2342,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 213.36 91.44 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 81.28 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3c0af92-156d-4459-9ec6-5c8e0cb24c4e")
-		(property "Reference" "#PWR04"
-			(at 213.36 95.25 0)
+		(uuid "e3dc406c-e9e2-43c3-8a9a-c91474368d8a")
+		(property "Reference" "H4"
+			(at 83.82 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 83.82 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 81.28 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,16 +2378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 213.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 91.44 0)
+		(property "Datasheet" "~"
+			(at 81.28 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,31 +2387,19 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 213.36 91.44 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 81.28 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 213.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15da5392-20ee-4267-95a2-19b0329e3719")
 		)
 		(instances
-			(project ""
+			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46"
-					(reference "#PWR04")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3104,7 +2681,7 @@
 	)
 	(sheet
 		(at 102.87 91.44)
-		(size 36.83 16.51)
+		(size 36.83 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3128,7 +2705,7 @@
 			)
 		)
 		(property "Sheetfile" "OSHE-Reader-Battery.kicad_sch"
-			(at 102.87 108.5346 0)
+			(at 102.87 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +2714,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 102.87 105.41 180)
+			(at 102.87 104.14 180)
 			(uuid "2148d4d2-dcc6-4468-86f8-edaef4f6a4d9")
 			(effects
 				(font
@@ -3147,7 +2724,7 @@
 			)
 		)
 		(pin "STAT" tri_state
-			(at 139.7 105.41 0)
+			(at 139.7 104.14 0)
 			(uuid "819734c8-91a4-4015-8217-fd949cf0383c")
 			(effects
 				(font
@@ -3156,18 +2733,8 @@
 				(justify right)
 			)
 		)
-		(pin "TS" passive
-			(at 102.87 101.6 180)
-			(uuid "0ccee860-ec3d-4d87-b91b-24ba2b5e093b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BAT+" passive
-			(at 102.87 97.79 180)
+			(at 102.87 99.06 180)
 			(uuid "0e86e698-e735-4d7c-a7a7-db018d6ef7f8")
 			(effects
 				(font

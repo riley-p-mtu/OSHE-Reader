@@ -1977,16 +1977,18 @@
 		(uuid "4c3ab5b8-e7c1-4e27-9328-33816b739205")
 	)
 	(no_connect
-		(at 148.59 93.98)
-		(uuid "4e509194-422a-49ab-b1e0-32c10881bf53")
-	)
-	(no_connect
-		(at 153.67 93.98)
-		(uuid "b80153f4-2b54-4fa0-8550-857c632a9649")
-	)
-	(no_connect
 		(at 140.97 36.83)
 		(uuid "d8e8ce9b-abda-4e20-af52-af5ee633690b")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008dd58c-dd99-45d9-b665-441fbfe30afa")
 	)
 	(wire
 		(pts
@@ -2117,6 +2119,16 @@
 			(type default)
 		)
 		(uuid "348becfc-29ba-4c80-b798-5122d336fcff")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 153.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369190b3-8ad9-43d1-9002-7a4645b6359d")
 	)
 	(wire
 		(pts
@@ -2710,6 +2722,17 @@
 		)
 		(uuid "3af2a447-9451-4690-be36-e1f67dd5db11")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 148.59 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f861e5a-21cb-4e10-8cb5-5dab10b391ba")
+	)
 	(hierarchical_label "CS"
 		(shape input)
 		(at 135.89 57.15 180)
@@ -2742,6 +2765,17 @@
 			(justify right)
 		)
 		(uuid "9d7cc324-f978-455c-a11e-729367009e3c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 153.67 96.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9da6e147-83f2-418d-9ff7-ce8697b76ef5")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2878,7 +2912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.84 77.47 0)
 			(effects
 				(font
@@ -2912,6 +2946,12 @@
 			(uuid "d28baf6e-c612-41be-8a94-5f7b06e4583b")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C20")
@@ -3054,6 +3094,12 @@
 			(uuid "4db06527-81d6-41d6-b665-021cd3fe7918")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "J3")
@@ -3090,7 +3136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 36.322 73.66 90)
 			(effects
 				(font
@@ -3124,6 +3170,12 @@
 			(uuid "06e3e607-b8d1-4d47-92cf-a4b887724b6c")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "R20")
@@ -3200,6 +3252,12 @@
 			(uuid "ce0b6f53-8634-4514-a96f-79097f0165f7")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "Q2")
@@ -3268,6 +3326,12 @@
 			(uuid "d449d838-af13-4ec5-9423-5e9d1ec5812d")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "D1")
@@ -3301,7 +3365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.84 87.63 0)
 			(effects
 				(font
@@ -3335,6 +3399,12 @@
 			(uuid "1debca49-08c7-4c4d-aa16-56011bc4645c")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C23")
@@ -3368,7 +3438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -3402,6 +3472,12 @@
 			(uuid "a942059a-6283-4f98-aedd-faa4fbae6a4a")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C21")
@@ -3438,7 +3514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 46.482 78.74 90)
 			(effects
 				(font
@@ -3472,6 +3548,12 @@
 			(uuid "ffbbd585-7455-4c92-9a20-5d196d66f3f9")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "R19")
@@ -3505,7 +3587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.84 67.31 0)
 			(effects
 				(font
@@ -3539,6 +3621,12 @@
 			(uuid "4ba20ef0-2866-4e0b-9d33-706d11b400ba")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C18")
@@ -3573,7 +3661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.84 40.3352 0)
 			(effects
 				(font
@@ -3607,6 +3695,12 @@
 			(uuid "d2dce7c6-0dc7-4011-bfbc-8445bfe73d56")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C17")
@@ -3675,6 +3769,12 @@
 			(uuid "4deda823-c67c-4d6c-81ef-3fbbdb063f4e")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "D2")
@@ -3743,6 +3843,12 @@
 			(uuid "d6522bba-ad49-43bb-9e98-80fed1030e8e")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "D3")
@@ -3776,7 +3882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.84 85.09 0)
 			(effects
 				(font
@@ -3810,6 +3916,12 @@
 			(uuid "94872122-dfd5-433f-aa33-6e4310f879e5")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C22")
@@ -3845,7 +3957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 49.2252 57.15 0)
 			(effects
 				(font
@@ -3879,6 +3991,12 @@
 			(uuid "d7dc0b1f-5106-4b2f-853c-989fc4e1655f")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C16")
@@ -3914,7 +4032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 72.0852 69.85 0)
 			(effects
 				(font
@@ -3948,6 +4066,12 @@
 			(uuid "2a02810f-542e-4499-a2fd-16b5847afa91")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C15")
@@ -3984,7 +4108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 26.9748 69.85 0)
 			(effects
 				(font
@@ -4018,6 +4142,12 @@
 			(uuid "177a20d7-0287-4d36-9548-9747057c0635")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C14")
@@ -4051,7 +4181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1812_4532Metric"
 			(at 38.1 59.69 0)
 			(effects
 				(font
@@ -4085,6 +4215,12 @@
 			(uuid "0f88aae2-a15a-441b-a1bd-fa752e3f6f83")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "L2")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "L2")
@@ -4118,7 +4254,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.84 72.39 0)
 			(effects
 				(font
@@ -4152,6 +4288,12 @@
 			(uuid "7190aee5-1a22-44d2-a765-1777804d2180")
 		)
 		(instances
+			(project "OSHE-Reader-Display-Connector"
+				(path "/2df8b7b4-9a23-4c1b-b49e-cc00a8453b9c"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "OSHE-Reader-PCB"
 				(path "/3f072c92-e35a-4654-839b-728bd3dc3a46/ab4c386c-ccef-4fd2-9471-e05e7dab2219"
 					(reference "C19")
@@ -4160,4 +4302,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

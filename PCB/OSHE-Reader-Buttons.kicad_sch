@@ -801,7 +801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 105.41 88.9 0)
 			(effects
 				(font
@@ -841,6 +841,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -868,7 +874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 54.61 41.91 0)
 			(effects
 				(font
@@ -908,6 +914,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -938,7 +950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 111.252 101.6 90)
 			(effects
 				(font
@@ -978,6 +990,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1008,7 +1026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 137.922 81.28 90)
 			(effects
 				(font
@@ -1048,6 +1066,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1076,7 +1100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 129.54 68.58 0)
 			(effects
 				(font
@@ -1116,6 +1140,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1146,7 +1176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 64.262 82.55 90)
 			(effects
 				(font
@@ -1186,6 +1216,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1216,7 +1252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 64.262 52.07 90)
 			(effects
 				(font
@@ -1256,6 +1292,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1284,7 +1326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 54.61 68.58 0)
 			(effects
 				(font
@@ -1324,17 +1366,23 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 128.27 49.53 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4828fb6-c0ec-4f13-85cf-8310f5c364e2")
 		(property "Reference" "SW1"
 			(at 128.27 41.91 0)
@@ -1352,7 +1400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -1392,6 +1440,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1422,7 +1476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 139.192 55.88 90)
 			(effects
 				(font
@@ -1462,6 +1516,18 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Buttons"
+				(path "/6556eb4f-dcf8-4b99-98b6-5934a7ce5a03"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

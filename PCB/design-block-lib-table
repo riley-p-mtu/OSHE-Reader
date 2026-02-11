@@ -6,6 +6,6 @@
   (lib (name "112L_TDA0")(type "KiCad")(uri "${KIPRJMOD}/lib/112L_TDA0")(options "")(descr ""))
   (lib (name "FH12A_24S_0_5SH_55_")(type "KiCad")(uri "${KIPRJMOD}/lib/FH12A_24S_0_5SH_55_")(options "")(descr ""))
   (lib (name "WSL2512R1000FEA")(type "KiCad")(uri "${KIPRJMOD}/lib/WSL2512R1000FEA")(options "")(descr ""))
-  (lib (name "USB4125_GF_A")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4125_GF_A")(options "")(descr ""))
   (lib (name "0ZCJ0050FF2G")(type "KiCad")(uri "${KIPRJMOD}/lib/0ZCJ0050FF2G")(options "")(descr ""))
+  (lib (name "2171750001")(type "KiCad")(uri "${KIPRJMOD}/lib/2171750001")(options "")(descr ""))
 )

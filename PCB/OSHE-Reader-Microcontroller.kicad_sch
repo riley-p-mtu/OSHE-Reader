@@ -1234,17 +1234,6 @@
 		)
 		(uuid "fdf32a03-eba6-4fcb-bc4d-db4ff3a062fe")
 	)
-	(hierarchical_label "DownButton"
-		(shape input)
-		(at 60.96 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "02408eb3-aa90-4ac7-870b-81f8b2ddfcf7")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 60.96 85.09 180)
@@ -1399,6 +1388,17 @@
 		)
 		(uuid "8bbd6c7b-be61-4d32-aa56-8c9ca55f26e7")
 	)
+	(hierarchical_label "DownButton"
+		(shape input)
+		(at 106.68 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9947496d-f606-4a5d-86c5-6fa5f1e4df02")
+	)
 	(hierarchical_label "UpButton"
 		(shape input)
 		(at 60.96 72.39 180)
@@ -1421,17 +1421,6 @@
 		)
 		(uuid "b106ae15-6f60-4d04-a0c0-8bad414b9d41")
 	)
-	(hierarchical_label "RightButton"
-		(shape input)
-		(at 106.68 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8826771-10b9-42a6-b6b5-a5d67dcd89de")
-	)
 	(hierarchical_label "LeftButton"
 		(shape input)
 		(at 106.68 59.69 0)
@@ -1445,6 +1434,17 @@
 	)
 	(hierarchical_label "HomeButton"
 		(shape input)
+		(at 60.96 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf6259ff-6265-47c3-b5d0-279dcb6032fe")
+	)
+	(hierarchical_label "RightButton"
+		(shape input)
 		(at 106.68 64.77 0)
 		(effects
 			(font
@@ -1452,7 +1452,7 @@
 			)
 			(justify left)
 		)
-		(uuid "dcdfefe6-ae02-40f8-9377-e61c2e9db03f")
+		(uuid "d9d5f357-13da-4e3d-8589-d64ad411cbe8")
 	)
 	(hierarchical_label "SCK"
 		(shape output)
@@ -1487,7 +1487,7 @@
 		(fields_autoplaced yes)
 		(uuid "09738fe4-abf2-431e-9b3e-5f46f6476955")
 		(property "Reference" "U4"
-			(at 83.82 45.212 0)
+			(at 83.82 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,6 +1633,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Microcontroller"
+				(path "/45bff31a-189b-4ed1-b273-a8e68dfd337a"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1663,7 +1669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 30.48 53.34 0)
 			(effects
 				(font
@@ -1703,6 +1709,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Microcontroller"
+				(path "/45bff31a-189b-4ed1-b273-a8e68dfd337a"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1733,7 +1745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 44.45 67.31 0)
 			(effects
 				(font
@@ -1773,6 +1785,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Microcontroller"
+				(path "/45bff31a-189b-4ed1-b273-a8e68dfd337a"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1803,7 +1821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 44.45 62.23 0)
 			(effects
 				(font
@@ -1843,6 +1861,12 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Microcontroller"
+				(path "/45bff31a-189b-4ed1-b273-a8e68dfd337a"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1872,7 +1896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -1912,6 +1936,18 @@
 					(unit 1)
 				)
 			)
+			(project "OSHE-Reader-Microcontroller"
+				(path "/45bff31a-189b-4ed1-b273-a8e68dfd337a"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
